@@ -1,0 +1,41 @@
+{
+  "repo_id": "google/magenta-realtime-2",
+  "revision": "010aa0dcb0dfd27b24f0ad07b4dad63e8f9521cc",
+  "source_checkpoint": "checkpoints/mrt2_base.safetensors",
+  "source_checkpoint_sha256": "60f3e813d9da4a41a166c734a3074e6d54254c2fc14b0817bad6b8d25cddc044",
+  "target": "params/depthformer/encoder/body/layers_1/branched_mulan_embedder/mulan_embedder/depth_input_adapter/kernel",
+  "calibration": [
+    {
+      "note": "original 441 frozen entries in results/piano_protected_search/edit.json"
+    },
+    {
+      "audio_reference": "minimax_ambient_12s.wav",
+      "audio_sha256": "74bf6eb91a2f3f40df7fc3c8863ce2c6680bbd10d6c26fde844ada95a5921102",
+      "group": "audio_preserve_extra"
+    },
+    {
+      "audio_reference": "minimax_singing_12s.wav",
+      "audio_sha256": "41a748a22afbd79df1f827bb69255914cac7a986b1f09d2d740fa94b758ecb25",
+      "group": "audio_preserve_extra"
+    },
+    {
+      "audio_reference": "flute_guitar_12s.wav",
+      "audio_sha256": "d12c2bb3e64226106d5bfc75a4be336518492fc6a3e7b0105444688a593e1ef0",
+      "group": "audio_preserve_extra"
+    },
+    {
+      "audio_reference": "harp_strings_12s.wav",
+      "audio_sha256": "fb641de90ca0c6cf192858c94d58d03311dae3ae01457e7def135059ab785529",
+      "group": "audio_preserve_extra"
+    }
+  ],
+  "formula": "delta = 1.4 * g outer direction; g = protected_gate(..., ridge=1.0) with 10 audio zero constraints",
+  "candidates": {
+    "gatefix": {
+      "patch_sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a",
+      "changed_parameters": 786432,
+      "relative_adapter_change": 0.05406041443347931,
+      "variant": "v2_extra_constraints"
+    }
+  }
+}

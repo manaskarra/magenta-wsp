@@ -1,0 +1,8 @@
+{
+  "piano_demo": {
+    "prompt": "Solo acoustic grand piano, a clear gentle piano melody, no other instruments.",
+    "seed": 7,
+    "style_mapper_seed": 7,
+    "target": "piano"
+  }
+}

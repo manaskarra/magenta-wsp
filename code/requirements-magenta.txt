@@ -1,0 +1,4 @@
+magenta-rt[mlx] @ git+https://github.com/magenta/magenta-realtime.git@694a545e4ba0b88bf1150137b129582166d3e07f
+mlx==0.32.4
+numpy==2.3.5
+ai-edge-litert==2.3.0

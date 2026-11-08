@@ -1,0 +1,10 @@
+.env/
+.test-env/
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+edited_checkpoint/
+reproduction/
+rebuilt.safetensors
+code/results/

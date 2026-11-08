@@ -1,0 +1,20 @@
+{
+  "listener": "user (project owner), blind to mapping; labels shuffled by make_blind_listening.py; mapping decoded only after the reply",
+  "recorded": "2026-11-08",
+  "verbatim": "1: A-piano, 2: flute+marimba type sound (best), 3: Flute (worst) | 2: A=flute B=flute (best) C=piano | 3: A=piano drums bass, B=flute drums bass | 4: A=flute, B=piano | 5: A=piano with weird ambient sound, B=fltue and becomes calm after a sec | 6: A=organ, B=cleaner organ | 7: A=string, B=piano+string",
+  "decoded": {
+    "set1_lullaby": {"original": "piano", "flute_prompt": "flute + marimba-like, BEST", "edited": "flute, WORST"},
+    "set2_boogie": {"flute_prompt": "flute", "edited": "flute, BEST", "original": "piano"},
+    "set3_trio": {"original": "piano + drums + bass", "edited": "flute + drums + bass (accompaniment retained)"},
+    "set4_realpiano": {"edited": "flute", "original": "piano"},
+    "set5_ambientref": {"original": "piano with weird ambient sound", "edited": "flute, becomes calm after a second"},
+    "set6_organ": {"edited": "organ", "original": "cleaner organ"},
+    "set7_pianostrings_ref": {"original": "strings", "edited": "piano + strings"}
+  },
+  "assessment": {
+    "conversions_confirmed": ["fp_lullaby", "fp_boogie", "fe_piano_trio (bass and drums retained)", "fa_real_piano_40s"],
+    "edit_vs_flute_prompt_quality": "1-1 split: prompting better on lullaby, edit better on boogie",
+    "control_failures_confirmed": ["fa_minimax_ambient: original rendering heard as piano-ish ambient, edited as flute; non-piano reference converted", "fa_piano_strings: edited output GAINS piano (strings -> piano+strings), matching the negative gate -0.55"],
+    "control_degradation": ["fc_organ: label kept, original judged cleaner"]
+  }
+}

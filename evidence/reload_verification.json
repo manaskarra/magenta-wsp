@@ -1,0 +1,9 @@
+{
+  "exploratory_sha256": "eecd5a15c034d173fabdbae40e44e499eb27c90953bbc2c4c3d1f2bc7d67eb27",
+  "reloaded_sha256": "eecd5a15c034d173fabdbae40e44e499eb27c90953bbc2c4c3d1f2bc7d67eb27",
+  "byte_identical": true,
+  "checkpoint_sha256": "5a9e57012d9d78ac405cb969ac63a691f4f47f7386445034131fb875986b1bba",
+  "expected_checkpoint_sha256": "5a9e57012d9d78ac405cb969ac63a691f4f47f7386445034131fb875986b1bba",
+  "fresh_process": true,
+  "runtime": "Unmodified official MagentaRT2Mlx, bits=None; no runtime patch or activation hook."
+}

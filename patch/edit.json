@@ -1,0 +1,8409 @@
+{
+  "repo_id": "google/magenta-realtime-2",
+  "revision": "010aa0dcb0dfd27b24f0ad07b4dad63e8f9521cc",
+  "source_checkpoint": "checkpoints/mrt2_base.safetensors",
+  "target": "params/depthformer/encoder/body/layers_1/branched_mulan_embedder/mulan_embedder/depth_input_adapter/kernel",
+  "calibration": [
+    {
+      "prompt": "A solo piano performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        215,
+        207,
+        502,
+        61,
+        200,
+        754,
+        669,
+        903,
+        142,
+        940,
+        39,
+        632
+      ]
+    },
+    {
+      "prompt": "An intimate recording of piano playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        145,
+        247,
+        965,
+        356,
+        711,
+        599,
+        666,
+        403,
+        451,
+        169,
+        706,
+        995
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on piano alone.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        606,
+        423,
+        875,
+        452,
+        815,
+        494,
+        24,
+        358,
+        132,
+        811,
+        849,
+        408
+      ]
+    },
+    {
+      "prompt": "Solo piano playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        525,
+        222,
+        522,
+        61,
+        552,
+        415,
+        798,
+        874,
+        715,
+        245,
+        711,
+        584
+      ]
+    },
+    {
+      "prompt": "A slow expressive piano solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        296,
+        477,
+        401,
+        1009,
+        465,
+        162,
+        666,
+        860,
+        1020,
+        565,
+        18,
+        111
+      ]
+    },
+    {
+      "prompt": "Bright piano playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        863,
+        208,
+        79,
+        154,
+        84,
+        718,
+        376,
+        243,
+        573,
+        2,
+        706,
+        760
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on piano in a small recital room.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        863,
+        477,
+        669,
+        61,
+        98,
+        154,
+        666,
+        709,
+        785,
+        342,
+        775,
+        189
+      ]
+    },
+    {
+      "prompt": "A quiet piano melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        312,
+        773,
+        881,
+        100,
+        615,
+        741,
+        463,
+        25,
+        177,
+        748,
+        836,
+        630
+      ]
+    },
+    {
+      "prompt": "Fast lively piano music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        869,
+        202,
+        616,
+        300,
+        32,
+        902,
+        533,
+        271,
+        429,
+        319,
+        482,
+        1012
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo piano.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        296,
+        977,
+        412,
+        452,
+        286,
+        314,
+        974,
+        808,
+        404,
+        87,
+        627,
+        189
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on piano.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        473,
+        247,
+        140,
+        497,
+        597,
+        344,
+        1004,
+        766,
+        423,
+        633,
+        811,
+        360
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on piano, one instrument only.",
+      "mapper_seed": 5,
+      "group": "piano",
+      "tokens": [
+        215,
+        671,
+        1013,
+        838,
+        853,
+        33,
+        376,
+        190,
+        879,
+        192,
+        697,
+        1011
+      ]
+    },
+    {
+      "prompt": "A solo piano performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        215,
+        207,
+        502,
+        61,
+        200,
+        431,
+        134,
+        903,
+        51,
+        592,
+        39,
+        887
+      ]
+    },
+    {
+      "prompt": "An intimate recording of piano playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        107,
+        423,
+        327,
+        426,
+        711,
+        677,
+        666,
+        93,
+        291,
+        628,
+        424,
+        374
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on piano alone.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        606,
+        423,
+        500,
+        452,
+        815,
+        741,
+        56,
+        93,
+        108,
+        903,
+        566,
+        37
+      ]
+    },
+    {
+      "prompt": "Solo piano playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        525,
+        477,
+        522,
+        181,
+        1016,
+        232,
+        233,
+        540,
+        882,
+        316,
+        886,
+        645
+      ]
+    },
+    {
+      "prompt": "A slow expressive piano solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        296,
+        477,
+        401,
+        1009,
+        214,
+        739,
+        534,
+        799,
+        257,
+        740,
+        561,
+        912
+      ]
+    },
+    {
+      "prompt": "Bright piano playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        195,
+        918,
+        616,
+        61,
+        1001,
+        184,
+        579,
+        187,
+        886,
+        383,
+        187,
+        692
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on piano in a small recital room.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        863,
+        477,
+        669,
+        61,
+        724,
+        154,
+        666,
+        680,
+        257,
+        588,
+        434,
+        985
+      ]
+    },
+    {
+      "prompt": "A quiet piano melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        312,
+        773,
+        6,
+        100,
+        344,
+        932,
+        383,
+        694,
+        188,
+        740,
+        630,
+        531
+      ]
+    },
+    {
+      "prompt": "Fast lively piano music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        195,
+        202,
+        616,
+        972,
+        275,
+        24,
+        889,
+        219,
+        260,
+        262,
+        963,
+        72
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo piano.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        296,
+        977,
+        412,
+        452,
+        54,
+        200,
+        648,
+        109,
+        919,
+        142,
+        934,
+        975
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on piano.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        473,
+        211,
+        140,
+        208,
+        597,
+        736,
+        573,
+        867,
+        527,
+        553,
+        701,
+        792
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on piano, one instrument only.",
+      "mapper_seed": 23,
+      "group": "piano",
+      "tokens": [
+        215,
+        671,
+        1013,
+        664,
+        597,
+        477,
+        512,
+        190,
+        17,
+        832,
+        348,
+        940
+      ]
+    },
+    {
+      "prompt": "A solo piano performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        215,
+        207,
+        1013,
+        61,
+        387,
+        962,
+        134,
+        691,
+        819,
+        903,
+        688,
+        420
+      ]
+    },
+    {
+      "prompt": "An intimate recording of piano playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        145,
+        275,
+        689,
+        308,
+        344,
+        54,
+        300,
+        47,
+        451,
+        424,
+        424,
+        69
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on piano alone.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        606,
+        115,
+        500,
+        452,
+        382,
+        971,
+        463,
+        273,
+        304,
+        193,
+        586,
+        1012
+      ]
+    },
+    {
+      "prompt": "Solo piano playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        525,
+        999,
+        237,
+        61,
+        637,
+        415,
+        765,
+        187,
+        685,
+        371,
+        214,
+        1012
+      ]
+    },
+    {
+      "prompt": "A slow expressive piano solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        58,
+        473,
+        340,
+        1009,
+        266,
+        307,
+        666,
+        857,
+        201,
+        776,
+        16,
+        610
+      ]
+    },
+    {
+      "prompt": "Bright piano playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        195,
+        918,
+        616,
+        844,
+        457,
+        865,
+        798,
+        707,
+        404,
+        903,
+        979,
+        634
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on piano in a small recital room.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        863,
+        918,
+        340,
+        604,
+        660,
+        16,
+        266,
+        98,
+        696,
+        567,
+        971,
+        946
+      ]
+    },
+    {
+      "prompt": "A quiet piano melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        737,
+        773,
+        881,
+        838,
+        344,
+        457,
+        463,
+        971,
+        1022,
+        223,
+        694,
+        58
+      ]
+    },
+    {
+      "prompt": "Fast lively piano music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        195,
+        202,
+        616,
+        972,
+        741,
+        16,
+        548,
+        864,
+        111,
+        992,
+        420,
+        420
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo piano.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        296,
+        419,
+        412,
+        452,
+        200,
+        560,
+        766,
+        498,
+        597,
+        592,
+        719,
+        286
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on piano.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        598,
+        211,
+        1015,
+        832,
+        597,
+        736,
+        398,
+        392,
+        105,
+        811,
+        257,
+        30
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on piano, one instrument only.",
+      "mapper_seed": 41,
+      "group": "piano",
+      "tokens": [
+        215,
+        671,
+        1013,
+        866,
+        629,
+        802,
+        72,
+        390,
+        925,
+        832,
+        697,
+        100
+      ]
+    },
+    {
+      "prompt": "A solo piano performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        215,
+        477,
+        1013,
+        9,
+        200,
+        852,
+        889,
+        33,
+        105,
+        76,
+        434,
+        842
+      ]
+    },
+    {
+      "prompt": "An intimate recording of piano playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        107,
+        423,
+        689,
+        208,
+        600,
+        677,
+        386,
+        834,
+        451,
+        377,
+        424,
+        69
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on piano alone.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        606,
+        99,
+        190,
+        172,
+        54,
+        971,
+        952,
+        821,
+        433,
+        669,
+        535,
+        181
+      ]
+    },
+    {
+      "prompt": "Solo piano playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        525,
+        264,
+        522,
+        181,
+        1016,
+        356,
+        582,
+        894,
+        954,
+        849,
+        346,
+        1012
+      ]
+    },
+    {
+      "prompt": "A slow expressive piano solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        296,
+        477,
+        401,
+        154,
+        272,
+        244,
+        666,
+        704,
+        998,
+        575,
+        414,
+        948
+      ]
+    },
+    {
+      "prompt": "Bright piano playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        869,
+        918,
+        79,
+        154,
+        54,
+        592,
+        654,
+        831,
+        198,
+        592,
+        247,
+        15
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on piano in a small recital room.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        863,
+        477,
+        190,
+        154,
+        465,
+        495,
+        666,
+        98,
+        389,
+        634,
+        509,
+        848
+      ]
+    },
+    {
+      "prompt": "A quiet piano melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        525,
+        253,
+        6,
+        0,
+        344,
+        432,
+        643,
+        799,
+        233,
+        1022,
+        809,
+        270
+      ]
+    },
+    {
+      "prompt": "Fast lively piano music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        869,
+        967,
+        616,
+        154,
+        539,
+        13,
+        273,
+        600,
+        583,
+        896,
+        381,
+        170
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo piano.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        296,
+        977,
+        871,
+        452,
+        54,
+        325,
+        910,
+        265,
+        869,
+        704,
+        485,
+        987
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on piano.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        473,
+        657,
+        140,
+        212,
+        685,
+        736,
+        109,
+        392,
+        369,
+        803,
+        693,
+        799
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on piano, one instrument only.",
+      "mapper_seed": 61,
+      "group": "piano",
+      "tokens": [
+        215,
+        862,
+        1013,
+        866,
+        357,
+        356,
+        138,
+        446,
+        568,
+        133,
+        885,
+        9
+      ]
+    },
+    {
+      "prompt": "A solo flute performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        207,
+        829,
+        920,
+        657,
+        144,
+        349,
+        320,
+        158,
+        748,
+        303,
+        109
+      ]
+    },
+    {
+      "prompt": "An intimate recording of flute playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        327,
+        497,
+        457,
+        60,
+        819,
+        345,
+        513,
+        777,
+        288,
+        90
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on flute alone.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        693,
+        468,
+        594,
+        604,
+        457,
+        511,
+        276,
+        974,
+        25,
+        945,
+        376,
+        100
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        788,
+        58,
+        174,
+        993,
+        612,
+        537,
+        846,
+        899,
+        994,
+        99,
+        38,
+        781
+      ]
+    },
+    {
+      "prompt": "A slow expressive flute solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        890,
+        829,
+        422,
+        532,
+        379,
+        510,
+        664,
+        479,
+        375,
+        517,
+        712
+      ]
+    },
+    {
+      "prompt": "Bright flute playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        171,
+        341,
+        319,
+        532,
+        1014,
+        157,
+        757,
+        132,
+        481,
+        108,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on flute in a small recital room.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        606,
+        969,
+        103,
+        457,
+        206,
+        570,
+        590,
+        72,
+        81,
+        477,
+        656
+      ]
+    },
+    {
+      "prompt": "A quiet flute melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        807,
+        347,
+        795,
+        344,
+        436,
+        463,
+        790,
+        628,
+        131,
+        147,
+        767
+      ]
+    },
+    {
+      "prompt": "Fast lively flute music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        653,
+        171,
+        434,
+        920,
+        138,
+        1014,
+        708,
+        1008,
+        132,
+        115,
+        424,
+        656
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo flute.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        75,
+        726,
+        247,
+        524,
+        583,
+        113,
+        740,
+        190,
+        592,
+        259,
+        625,
+        352
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on flute.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        519,
+        1007,
+        140,
+        690,
+        597,
+        736,
+        641,
+        651,
+        766,
+        181,
+        697,
+        48
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on flute, one instrument only.",
+      "mapper_seed": 5,
+      "group": "flute",
+      "tokens": [
+        800,
+        604,
+        433,
+        728,
+        532,
+        477,
+        616,
+        104,
+        760,
+        272,
+        460,
+        354
+      ]
+    },
+    {
+      "prompt": "A solo flute performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        207,
+        829,
+        690,
+        13,
+        948,
+        119,
+        720,
+        971,
+        119,
+        82,
+        38
+      ]
+    },
+    {
+      "prompt": "An intimate recording of flute playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        327,
+        426,
+        711,
+        477,
+        666,
+        461,
+        204,
+        758,
+        398,
+        474
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on flute alone.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        693,
+        468,
+        594,
+        604,
+        457,
+        391,
+        315,
+        565,
+        745,
+        530,
+        909,
+        896
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        788,
+        58,
+        1001,
+        356,
+        612,
+        741,
+        248,
+        461,
+        33,
+        498,
+        354,
+        781
+      ]
+    },
+    {
+      "prompt": "A slow expressive flute solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        890,
+        829,
+        422,
+        658,
+        901,
+        766,
+        686,
+        291,
+        63,
+        827,
+        109
+      ]
+    },
+    {
+      "prompt": "Bright flute playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        171,
+        341,
+        319,
+        824,
+        1014,
+        157,
+        720,
+        851,
+        870,
+        523,
+        56
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on flute in a small recital room.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        468,
+        816,
+        428,
+        266,
+        478,
+        723,
+        109,
+        956,
+        478,
+        243,
+        242
+      ]
+    },
+    {
+      "prompt": "A quiet flute melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        166,
+        81,
+        554,
+        660,
+        776,
+        15,
+        628,
+        29,
+        556,
+        397
+      ]
+    },
+    {
+      "prompt": "Fast lively flute music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        653,
+        171,
+        39,
+        788,
+        924,
+        124,
+        548,
+        1019,
+        198,
+        694,
+        472,
+        950
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo flute.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        75,
+        726,
+        829,
+        918,
+        1008,
+        140,
+        295,
+        832,
+        378,
+        642,
+        802,
+        717
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on flute.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        417,
+        609,
+        140,
+        103,
+        563,
+        55,
+        961,
+        854,
+        335,
+        556,
+        80,
+        728
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on flute, one instrument only.",
+      "mapper_seed": 23,
+      "group": "flute",
+      "tokens": [
+        800,
+        604,
+        433,
+        728,
+        200,
+        836,
+        363,
+        899,
+        774,
+        864,
+        677,
+        39
+      ]
+    },
+    {
+      "prompt": "A solo flute performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        207,
+        829,
+        920,
+        657,
+        459,
+        267,
+        720,
+        971,
+        119,
+        246,
+        792
+      ]
+    },
+    {
+      "prompt": "An intimate recording of flute playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        327,
+        426,
+        457,
+        356,
+        670,
+        446,
+        628,
+        911,
+        923,
+        984
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on flute alone.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        693,
+        468,
+        213,
+        370,
+        6,
+        511,
+        315,
+        668,
+        542,
+        799,
+        243,
+        985
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        78,
+        21,
+        174,
+        963,
+        439,
+        741,
+        964,
+        448,
+        729,
+        119,
+        321,
+        1018
+      ]
+    },
+    {
+      "prompt": "A slow expressive flute solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        606,
+        829,
+        527,
+        888,
+        831,
+        1013,
+        454,
+        971,
+        507,
+        827,
+        143
+      ]
+    },
+    {
+      "prompt": "Bright flute playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        171,
+        341,
+        154,
+        432,
+        612,
+        157,
+        720,
+        927,
+        518,
+        666,
+        926
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on flute in a small recital room.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        606,
+        969,
+        103,
+        457,
+        802,
+        576,
+        694,
+        971,
+        81,
+        959,
+        930
+      ]
+    },
+    {
+      "prompt": "A quiet flute melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        949,
+        347,
+        860,
+        108,
+        677,
+        776,
+        664,
+        943,
+        342,
+        30,
+        382
+      ]
+    },
+    {
+      "prompt": "Fast lively flute music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        653,
+        171,
+        39,
+        920,
+        32,
+        13,
+        402,
+        390,
+        132,
+        967,
+        215,
+        320
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo flute.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        75,
+        726,
+        829,
+        918,
+        811,
+        325,
+        783,
+        808,
+        277,
+        652,
+        128,
+        599
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on flute.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        417,
+        1007,
+        140,
+        103,
+        597,
+        344,
+        109,
+        392,
+        38,
+        47,
+        510,
+        158
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on flute, one instrument only.",
+      "mapper_seed": 41,
+      "group": "flute",
+      "tokens": [
+        800,
+        171,
+        433,
+        664,
+        200,
+        60,
+        1023,
+        733,
+        807,
+        595,
+        946,
+        916
+      ]
+    },
+    {
+      "prompt": "A solo flute performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        829,
+        428,
+        554,
+        459,
+        320,
+        691,
+        971,
+        770,
+        178,
+        242
+      ]
+    },
+    {
+      "prompt": "An intimate recording of flute playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        327,
+        793,
+        457,
+        537,
+        633,
+        589,
+        95,
+        507,
+        186,
+        642
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on flute alone.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        693,
+        468,
+        594,
+        370,
+        457,
+        356,
+        315,
+        668,
+        695,
+        799,
+        432,
+        628
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        788,
+        58,
+        35,
+        966,
+        612,
+        75,
+        654,
+        140,
+        715,
+        567,
+        533,
+        656
+      ]
+    },
+    {
+      "prompt": "A slow expressive flute solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        800,
+        890,
+        620,
+        422,
+        363,
+        478,
+        55,
+        301,
+        348,
+        957,
+        391,
+        195
+      ]
+    },
+    {
+      "prompt": "Bright flute playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        653,
+        171,
+        434,
+        154,
+        720,
+        356,
+        924,
+        720,
+        221,
+        858,
+        217,
+        59
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on flute in a small recital room.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        800,
+        554,
+        816,
+        690,
+        532,
+        478,
+        134,
+        402,
+        807,
+        4,
+        589,
+        38
+      ]
+    },
+    {
+      "prompt": "A quiet flute melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        800,
+        743,
+        166,
+        832,
+        554,
+        307,
+        324,
+        15,
+        125,
+        368,
+        617,
+        397
+      ]
+    },
+    {
+      "prompt": "Fast lively flute music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        653,
+        171,
+        520,
+        788,
+        224,
+        13,
+        204,
+        370,
+        853,
+        909,
+        828,
+        989
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo flute.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        75,
+        726,
+        410,
+        222,
+        54,
+        113,
+        475,
+        483,
+        1014,
+        46,
+        796,
+        831
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on flute.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        519,
+        818,
+        140,
+        208,
+        214,
+        736,
+        109,
+        4,
+        400,
+        595,
+        739,
+        432
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on flute, one instrument only.",
+      "mapper_seed": 61,
+      "group": "flute",
+      "tokens": [
+        800,
+        171,
+        433,
+        356,
+        806,
+        779,
+        1023,
+        430,
+        161,
+        228,
+        256,
+        410
+      ]
+    },
+    {
+      "prompt": "A solo acoustic guitar performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        275,
+        1013,
+        911,
+        200,
+        477,
+        136,
+        769,
+        598,
+        444,
+        827,
+        175
+      ]
+    },
+    {
+      "prompt": "An intimate recording of acoustic guitar playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        605,
+        140,
+        181,
+        426,
+        711,
+        477,
+        573,
+        903,
+        241,
+        235,
+        417,
+        576
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on acoustic guitar alone.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        695,
+        931,
+        85,
+        507,
+        964,
+        706,
+        915,
+        601,
+        246,
+        467,
+        695
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        987,
+        650,
+        609,
+        840,
+        781,
+        767,
+        319,
+        143,
+        841,
+        253,
+        781
+      ]
+    },
+    {
+      "prompt": "A slow expressive acoustic guitar solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        11,
+        401,
+        1009,
+        626,
+        162,
+        214,
+        190,
+        996,
+        453,
+        253,
+        307
+      ]
+    },
+    {
+      "prompt": "Bright acoustic guitar playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        171,
+        157,
+        46,
+        1001,
+        645,
+        765,
+        277,
+        814,
+        121,
+        396,
+        798
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on acoustic guitar in a small recital room.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        207,
+        181,
+        61,
+        98,
+        511,
+        183,
+        709,
+        693,
+        677,
+        683,
+        1023
+      ]
+    },
+    {
+      "prompt": "A quiet acoustic guitar melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        737,
+        253,
+        181,
+        426,
+        684,
+        928,
+        424,
+        58,
+        451,
+        445,
+        253,
+        630
+      ]
+    },
+    {
+      "prompt": "Fast lively acoustic guitar music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        86,
+        703,
+        636,
+        469,
+        30,
+        631,
+        749,
+        316,
+        601,
+        700,
+        231,
+        395
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo acoustic guitar.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        391,
+        11,
+        13,
+        794,
+        552,
+        303,
+        998,
+        563,
+        399,
+        53,
+        6,
+        667
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on acoustic guitar.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        473,
+        247,
+        140,
+        902,
+        597,
+        736,
+        573,
+        766,
+        423,
+        185,
+        64,
+        900
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on acoustic guitar, one instrument only.",
+      "mapper_seed": 5,
+      "group": "acoustic guitar",
+      "tokens": [
+        71,
+        497,
+        118,
+        664,
+        853,
+        571,
+        579,
+        277,
+        17,
+        46,
+        694,
+        774
+      ]
+    },
+    {
+      "prompt": "A solo acoustic guitar performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        207,
+        400,
+        911,
+        200,
+        90,
+        749,
+        646,
+        105,
+        386,
+        422,
+        239
+      ]
+    },
+    {
+      "prompt": "An intimate recording of acoustic guitar playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        605,
+        275,
+        181,
+        426,
+        711,
+        537,
+        802,
+        243,
+        557,
+        700,
+        307,
+        482
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on acoustic guitar alone.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        695,
+        931,
+        9,
+        815,
+        592,
+        784,
+        192,
+        954,
+        903,
+        347,
+        690
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        987,
+        650,
+        1009,
+        369,
+        232,
+        362,
+        554,
+        342,
+        613,
+        815,
+        334
+      ]
+    },
+    {
+      "prompt": "A slow expressive acoustic guitar solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        11,
+        401,
+        1009,
+        626,
+        781,
+        500,
+        367,
+        335,
+        135,
+        974,
+        261
+      ]
+    },
+    {
+      "prompt": "Bright acoustic guitar playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        171,
+        361,
+        803,
+        32,
+        292,
+        385,
+        851,
+        736,
+        46,
+        29,
+        234
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on acoustic guitar in a small recital room.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        207,
+        181,
+        61,
+        660,
+        898,
+        813,
+        170,
+        893,
+        722,
+        141,
+        395
+      ]
+    },
+    {
+      "prompt": "A quiet acoustic guitar melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        737,
+        773,
+        125,
+        356,
+        261,
+        742,
+        963,
+        790,
+        619,
+        803,
+        890,
+        547
+      ]
+    },
+    {
+      "prompt": "Fast lively acoustic guitar music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        86,
+        703,
+        636,
+        469,
+        883,
+        578,
+        200,
+        851,
+        266,
+        853,
+        607,
+        950
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo acoustic guitar.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        220,
+        419,
+        13,
+        356,
+        966,
+        292,
+        295,
+        397,
+        919,
+        711,
+        214,
+        625
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on acoustic guitar.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        473,
+        186,
+        140,
+        832,
+        597,
+        736,
+        149,
+        359,
+        423,
+        711,
+        80,
+        669
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on acoustic guitar, one instrument only.",
+      "mapper_seed": 23,
+      "group": "acoustic guitar",
+      "tokens": [
+        609,
+        497,
+        118,
+        664,
+        910,
+        571,
+        458,
+        385,
+        895,
+        689,
+        348,
+        987
+      ]
+    },
+    {
+      "prompt": "A solo acoustic guitar performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        207,
+        400,
+        551,
+        626,
+        554,
+        617,
+        219,
+        949,
+        403,
+        827,
+        842
+      ]
+    },
+    {
+      "prompt": "An intimate recording of acoustic guitar playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        605,
+        140,
+        181,
+        426,
+        711,
+        132,
+        134,
+        821,
+        241,
+        777,
+        952,
+        856
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on acoustic guitar alone.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        140,
+        935,
+        426,
+        815,
+        174,
+        715,
+        28,
+        471,
+        903,
+        684,
+        947
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        260,
+        246,
+        1013,
+        963,
+        439,
+        1019,
+        214,
+        524,
+        900,
+        656,
+        253,
+        14
+      ]
+    },
+    {
+      "prompt": "A slow expressive acoustic guitar solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        11,
+        401,
+        186,
+        202,
+        477,
+        214,
+        843,
+        172,
+        852,
+        358,
+        307
+      ]
+    },
+    {
+      "prompt": "Bright acoustic guitar playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        86,
+        119,
+        131,
+        469,
+        431,
+        560,
+        200,
+        98,
+        553,
+        794,
+        555,
+        215
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on acoustic guitar in a small recital room.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        207,
+        650,
+        1009,
+        470,
+        608,
+        267,
+        370,
+        41,
+        334,
+        834,
+        968
+      ]
+    },
+    {
+      "prompt": "A quiet acoustic guitar melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        737,
+        268,
+        217,
+        426,
+        705,
+        778,
+        398,
+        357,
+        405,
+        689,
+        1020,
+        302
+      ]
+    },
+    {
+      "prompt": "Fast lively acoustic guitar music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        664,
+        171,
+        636,
+        469,
+        432,
+        415,
+        958,
+        11,
+        814,
+        967,
+        555,
+        941
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo acoustic guitar.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        589,
+        11,
+        13,
+        356,
+        966,
+        608,
+        765,
+        397,
+        954,
+        658,
+        748,
+        286
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on acoustic guitar.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        36,
+        657,
+        140,
+        925,
+        597,
+        736,
+        927,
+        766,
+        841,
+        102,
+        476,
+        885
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on acoustic guitar, one instrument only.",
+      "mapper_seed": 41,
+      "group": "acoustic guitar",
+      "tokens": [
+        609,
+        862,
+        1013,
+        664,
+        910,
+        571,
+        1003,
+        646,
+        451,
+        512,
+        6,
+        963
+      ]
+    },
+    {
+      "prompt": "A solo acoustic guitar performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        207,
+        400,
+        911,
+        626,
+        405,
+        749,
+        646,
+        837,
+        15,
+        944,
+        530
+      ]
+    },
+    {
+      "prompt": "An intimate recording of acoustic guitar playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        605,
+        140,
+        181,
+        793,
+        815,
+        77,
+        320,
+        222,
+        958,
+        195,
+        412,
+        397
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on acoustic guitar alone.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        695,
+        931,
+        725,
+        507,
+        77,
+        382,
+        998,
+        453,
+        903,
+        284,
+        621
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        427,
+        901,
+        501,
+        992,
+        232,
+        293,
+        502,
+        881,
+        922,
+        825,
+        913
+      ]
+    },
+    {
+      "prompt": "A slow expressive acoustic guitar solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        213,
+        11,
+        401,
+        186,
+        214,
+        781,
+        500,
+        482,
+        565,
+        4,
+        682,
+        310
+      ]
+    },
+    {
+      "prompt": "Bright acoustic guitar playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        427,
+        636,
+        154,
+        804,
+        970,
+        994,
+        757,
+        860,
+        276,
+        346,
+        123
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on acoustic guitar in a small recital room.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        6,
+        140,
+        340,
+        1009,
+        660,
+        511,
+        749,
+        389,
+        1015,
+        826,
+        834,
+        689
+      ]
+    },
+    {
+      "prompt": "A quiet acoustic guitar melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        312,
+        140,
+        394,
+        100,
+        344,
+        928,
+        149,
+        170,
+        598,
+        503,
+        217,
+        619
+      ]
+    },
+    {
+      "prompt": "Fast lively acoustic guitar music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        794,
+        703,
+        636,
+        972,
+        32,
+        595,
+        994,
+        379,
+        182,
+        709,
+        867,
+        666
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo acoustic guitar.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        522,
+        11,
+        13,
+        911,
+        966,
+        973,
+        998,
+        483,
+        923,
+        898,
+        719,
+        565
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on acoustic guitar.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        473,
+        657,
+        140,
+        166,
+        823,
+        736,
+        327,
+        766,
+        962,
+        826,
+        134,
+        584
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on acoustic guitar, one instrument only.",
+      "mapper_seed": 61,
+      "group": "acoustic guitar",
+      "tokens": [
+        71,
+        862,
+        1013,
+        794,
+        910,
+        29,
+        643,
+        281,
+        736,
+        46,
+        186,
+        772
+      ]
+    },
+    {
+      "prompt": "A solo violin performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        644,
+        207,
+        554,
+        9,
+        457,
+        1000,
+        874,
+        690,
+        232,
+        784,
+        346,
+        150
+      ]
+    },
+    {
+      "prompt": "An intimate recording of violin playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        764,
+        140,
+        181,
+        992,
+        711,
+        677,
+        666,
+        310,
+        1015,
+        777,
+        147,
+        685
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on violin alone.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        280,
+        249,
+        594,
+        992,
+        902,
+        113,
+        906,
+        701,
+        1,
+        265,
+        765,
+        900
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        672,
+        191,
+        650,
+        364,
+        106,
+        75,
+        281,
+        140,
+        446,
+        316,
+        261,
+        681
+      ]
+    },
+    {
+      "prompt": "A slow expressive violin solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        644,
+        207,
+        620,
+        422,
+        936,
+        608,
+        169,
+        985,
+        457,
+        547,
+        578,
+        799
+      ]
+    },
+    {
+      "prompt": "Bright violin playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        644,
+        554,
+        553,
+        225,
+        554,
+        1000,
+        537,
+        14,
+        927,
+        84,
+        190,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on violin in a small recital room.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        816,
+        225,
+        200,
+        16,
+        905,
+        602,
+        72,
+        415,
+        363,
+        956
+      ]
+    },
+    {
+      "prompt": "A quiet violin melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        312,
+        191,
+        650,
+        1009,
+        431,
+        317,
+        295,
+        447,
+        707,
+        695,
+        843,
+        533
+      ]
+    },
+    {
+      "prompt": "Fast lively violin music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        644,
+        703,
+        434,
+        1001,
+        759,
+        603,
+        749,
+        779,
+        911,
+        677,
+        256,
+        632
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo violin.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        99,
+        962,
+        120,
+        717,
+        811,
+        40,
+        706,
+        808,
+        335,
+        669,
+        128,
+        1021
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on violin.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        473,
+        211,
+        140,
+        208,
+        597,
+        736,
+        573,
+        766,
+        560,
+        280,
+        454,
+        97
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on violin, one instrument only.",
+      "mapper_seed": 5,
+      "group": "violin",
+      "tokens": [
+        609,
+        207,
+        452,
+        132,
+        853,
+        477,
+        62,
+        347,
+        170,
+        843,
+        374,
+        889
+      ]
+    },
+    {
+      "prompt": "A solo violin performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        554,
+        604,
+        626,
+        875,
+        204,
+        1009,
+        701,
+        848,
+        953,
+        511
+      ]
+    },
+    {
+      "prompt": "An intimate recording of violin playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        764,
+        140,
+        181,
+        992,
+        711,
+        494,
+        221,
+        125,
+        557,
+        149,
+        944,
+        397
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on violin alone.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        280,
+        249,
+        98,
+        992,
+        815,
+        603,
+        306,
+        616,
+        277,
+        442,
+        457,
+        566
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        672,
+        191,
+        650,
+        254,
+        1016,
+        741,
+        337,
+        140,
+        954,
+        695,
+        815,
+        679
+      ]
+    },
+    {
+      "prompt": "A slow expressive violin solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        401,
+        225,
+        666,
+        162,
+        109,
+        560,
+        701,
+        386,
+        908,
+        849
+      ]
+    },
+    {
+      "prompt": "Bright violin playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        644,
+        554,
+        553,
+        337,
+        554,
+        415,
+        117,
+        757,
+        567,
+        651,
+        625,
+        395
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on violin in a small recital room.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        816,
+        225,
+        200,
+        951,
+        905,
+        301,
+        81,
+        716,
+        701,
+        38
+      ]
+    },
+    {
+      "prompt": "A quiet violin melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        312,
+        773,
+        181,
+        348,
+        431,
+        537,
+        295,
+        170,
+        788,
+        784,
+        300,
+        799
+      ]
+    },
+    {
+      "prompt": "Fast lively violin music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        644,
+        703,
+        434,
+        898,
+        561,
+        603,
+        749,
+        241,
+        116,
+        415,
+        677,
+        248
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo violin.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        99,
+        962,
+        412,
+        717,
+        214,
+        140,
+        966,
+        319,
+        342,
+        205,
+        445,
+        662
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on violin.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        519,
+        657,
+        140,
+        401,
+        50,
+        736,
+        573,
+        392,
+        387,
+        825,
+        733,
+        792
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on violin, one instrument only.",
+      "mapper_seed": 23,
+      "group": "violin",
+      "tokens": [
+        644,
+        610,
+        1013,
+        664,
+        448,
+        69,
+        512,
+        720,
+        707,
+        342,
+        811,
+        350
+      ]
+    },
+    {
+      "prompt": "A solo violin performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        644,
+        207,
+        554,
+        604,
+        457,
+        509,
+        584,
+        224,
+        111,
+        127,
+        346,
+        150
+      ]
+    },
+    {
+      "prompt": "An intimate recording of violin playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        657,
+        140,
+        181,
+        426,
+        711,
+        356,
+        666,
+        616,
+        685,
+        867,
+        790,
+        685
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on violin alone.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        280,
+        466,
+        190,
+        348,
+        815,
+        16,
+        254,
+        319,
+        451,
+        991,
+        29,
+        1000
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        672,
+        191,
+        650,
+        364,
+        106,
+        75,
+        921,
+        299,
+        685,
+        154,
+        330,
+        304
+      ]
+    },
+    {
+      "prompt": "A slow expressive violin solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        644,
+        207,
+        620,
+        422,
+        936,
+        379,
+        687,
+        275,
+        290,
+        454,
+        827,
+        799
+      ]
+    },
+    {
+      "prompt": "Bright violin playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        644,
+        1017,
+        79,
+        225,
+        249,
+        167,
+        749,
+        757,
+        177,
+        991,
+        346,
+        736
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on violin in a small recital room.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        816,
+        225,
+        132,
+        477,
+        433,
+        486,
+        787,
+        903,
+        440,
+        121
+      ]
+    },
+    {
+      "prompt": "A quiet violin melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        312,
+        773,
+        816,
+        832,
+        723,
+        519,
+        666,
+        170,
+        315,
+        867,
+        321,
+        397
+      ]
+    },
+    {
+      "prompt": "Fast lively violin music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        644,
+        703,
+        434,
+        966,
+        759,
+        603,
+        576,
+        893,
+        685,
+        415,
+        614,
+        818
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo violin.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        99,
+        962,
+        504,
+        566,
+        811,
+        608,
+        295,
+        224,
+        494,
+        734,
+        128,
+        539
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on violin.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        58,
+        1007,
+        140,
+        832,
+        823,
+        274,
+        927,
+        766,
+        564,
+        492,
+        14,
+        604
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on violin, one instrument only.",
+      "mapper_seed": 41,
+      "group": "violin",
+      "tokens": [
+        644,
+        862,
+        1013,
+        664,
+        853,
+        405,
+        62,
+        899,
+        78,
+        525,
+        399,
+        494
+      ]
+    },
+    {
+      "prompt": "A solo violin performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        644,
+        207,
+        554,
+        337,
+        457,
+        113,
+        874,
+        903,
+        460,
+        458,
+        346,
+        19
+      ]
+    },
+    {
+      "prompt": "An intimate recording of violin playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        764,
+        140,
+        181,
+        992,
+        711,
+        537,
+        666,
+        616,
+        552,
+        777,
+        515,
+        377
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on violin alone.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        280,
+        277,
+        190,
+        992,
+        936,
+        509,
+        819,
+        319,
+        211,
+        514,
+        656,
+        533
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        672,
+        58,
+        656,
+        963,
+        612,
+        75,
+        125,
+        446,
+        243,
+        806,
+        330,
+        123
+      ]
+    },
+    {
+      "prompt": "A slow expressive violin solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        620,
+        348,
+        214,
+        197,
+        560,
+        704,
+        1006,
+        968,
+        896,
+        372
+      ]
+    },
+    {
+      "prompt": "Bright violin playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        644,
+        554,
+        553,
+        154,
+        902,
+        878,
+        538,
+        893,
+        521,
+        107,
+        666,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on violin in a small recital room.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        644,
+        466,
+        816,
+        225,
+        457,
+        16,
+        802,
+        447,
+        543,
+        856,
+        944,
+        582
+      ]
+    },
+    {
+      "prompt": "A quiet violin melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        312,
+        773,
+        188,
+        348,
+        724,
+        537,
+        18,
+        170,
+        449,
+        639,
+        369,
+        685
+      ]
+    },
+    {
+      "prompt": "Fast lively violin music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        644,
+        703,
+        434,
+        729,
+        432,
+        603,
+        749,
+        824,
+        543,
+        330,
+        105,
+        45
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo violin.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        99,
+        962,
+        239,
+        992,
+        254,
+        140,
+        612,
+        483,
+        15,
+        727,
+        177,
+        85
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on violin.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        473,
+        211,
+        140,
+        212,
+        214,
+        736,
+        109,
+        766,
+        152,
+        920,
+        627,
+        733
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on violin, one instrument only.",
+      "mapper_seed": 61,
+      "group": "violin",
+      "tokens": [
+        609,
+        207,
+        434,
+        664,
+        280,
+        75,
+        655,
+        938,
+        125,
+        60,
+        374,
+        410
+      ]
+    },
+    {
+      "prompt": "A solo cello performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        207,
+        298,
+        604,
+        930,
+        528,
+        76,
+        174,
+        146,
+        791,
+        213,
+        90
+      ]
+    },
+    {
+      "prompt": "An intimate recording of cello playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        181,
+        604,
+        121,
+        677,
+        666,
+        584,
+        678,
+        777,
+        946,
+        148
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on cello alone.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        280,
+        758,
+        298,
+        992,
+        387,
+        154,
+        254,
+        37,
+        494,
+        707,
+        607,
+        1000
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        106,
+        501,
+        121,
+        741,
+        362,
+        920,
+        783,
+        937,
+        922,
+        666
+      ]
+    },
+    {
+      "prompt": "A slow expressive cello solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        401,
+        604,
+        266,
+        162,
+        1017,
+        860,
+        200,
+        172,
+        600,
+        20
+      ]
+    },
+    {
+      "prompt": "Bright cello playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        554,
+        553,
+        604,
+        1003,
+        453,
+        913,
+        768,
+        81,
+        46,
+        581,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on cello in a small recital room.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        758,
+        1013,
+        604,
+        266,
+        844,
+        628,
+        319,
+        902,
+        916,
+        257,
+        145
+      ]
+    },
+    {
+      "prompt": "A quiet cello melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        181,
+        1005,
+        810,
+        197,
+        3,
+        220,
+        787,
+        387,
+        608,
+        376
+      ]
+    },
+    {
+      "prompt": "Fast lively cello music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        280,
+        1017,
+        553,
+        535,
+        840,
+        718,
+        749,
+        531,
+        989,
+        442,
+        771,
+        842
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo cello.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        13,
+        46,
+        286,
+        973,
+        726,
+        692,
+        56,
+        248,
+        923,
+        97
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on cello.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        473,
+        211,
+        140,
+        208,
+        597,
+        200,
+        1023,
+        766,
+        560,
+        825,
+        834,
+        662
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on cello, one instrument only.",
+      "mapper_seed": 5,
+      "group": "cello",
+      "tokens": [
+        391,
+        671,
+        1013,
+        254,
+        853,
+        477,
+        989,
+        828,
+        919,
+        457,
+        310,
+        1011
+      ]
+    },
+    {
+      "prompt": "A solo cello performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        207,
+        298,
+        604,
+        72,
+        161,
+        55,
+        938,
+        690,
+        813,
+        78,
+        669
+      ]
+    },
+    {
+      "prompt": "An intimate recording of cello playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        181,
+        604,
+        121,
+        677,
+        666,
+        562,
+        678,
+        138,
+        357,
+        408
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on cello alone.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        280,
+        758,
+        298,
+        992,
+        387,
+        317,
+        784,
+        319,
+        748,
+        960,
+        888,
+        773
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        1013,
+        1005,
+        840,
+        741,
+        688,
+        1011,
+        81,
+        290,
+        96,
+        781
+      ]
+    },
+    {
+      "prompt": "A slow expressive cello solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        180,
+        298,
+        422,
+        266,
+        162,
+        312,
+        174,
+        129,
+        780,
+        600,
+        20
+      ]
+    },
+    {
+      "prompt": "Bright cello playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        554,
+        553,
+        604,
+        1001,
+        528,
+        254,
+        98,
+        81,
+        46,
+        358,
+        406
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on cello in a small recital room.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        758,
+        1013,
+        604,
+        266,
+        374,
+        435,
+        447,
+        126,
+        300,
+        600,
+        811
+      ]
+    },
+    {
+      "prompt": "A quiet cello melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        181,
+        1005,
+        810,
+        371,
+        72,
+        834,
+        653,
+        867,
+        336,
+        820
+      ]
+    },
+    {
+      "prompt": "Fast lively cello music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        280,
+        967,
+        553,
+        729,
+        573,
+        1014,
+        749,
+        421,
+        123,
+        46,
+        215,
+        669
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo cello.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        13,
+        918,
+        200,
+        140,
+        165,
+        169,
+        663,
+        0,
+        775,
+        651
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on cello.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        519,
+        657,
+        140,
+        401,
+        183,
+        200,
+        1004,
+        52,
+        786,
+        181,
+        273,
+        451
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on cello, one instrument only.",
+      "mapper_seed": 23,
+      "group": "cello",
+      "tokens": [
+        391,
+        671,
+        1013,
+        254,
+        200,
+        832,
+        739,
+        899,
+        919,
+        907,
+        286,
+        111
+      ]
+    },
+    {
+      "prompt": "A solo cello performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        207,
+        298,
+        604,
+        910,
+        68,
+        55,
+        415,
+        81,
+        1007,
+        229,
+        488
+      ]
+    },
+    {
+      "prompt": "An intimate recording of cello playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        181,
+        604,
+        121,
+        31,
+        666,
+        790,
+        52,
+        154,
+        706,
+        74
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on cello alone.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        758,
+        98,
+        992,
+        249,
+        478,
+        331,
+        319,
+        77,
+        575,
+        29,
+        677
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        1013,
+        1005,
+        121,
+        806,
+        362,
+        915,
+        600,
+        886,
+        849,
+        560
+      ]
+    },
+    {
+      "prompt": "A slow expressive cello solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        180,
+        298,
+        422,
+        635,
+        360,
+        666,
+        788,
+        176,
+        324,
+        825,
+        838
+      ]
+    },
+    {
+      "prompt": "Bright cello playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        838,
+        207,
+        553,
+        1021,
+        457,
+        431,
+        510,
+        98,
+        144,
+        146,
+        64,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on cello in a small recital room.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        758,
+        1013,
+        604,
+        266,
+        844,
+        628,
+        319,
+        543,
+        1006,
+        511,
+        844
+      ]
+    },
+    {
+      "prompt": "A quiet cello melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        868,
+        1005,
+        266,
+        34,
+        476,
+        236,
+        926,
+        816,
+        343,
+        695
+      ]
+    },
+    {
+      "prompt": "Fast lively cello music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        280,
+        967,
+        553,
+        729,
+        759,
+        403,
+        579,
+        824,
+        81,
+        623,
+        920,
+        652
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo cello.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        13,
+        918,
+        414,
+        140,
+        798,
+        504,
+        127,
+        979,
+        255,
+        787
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on cello.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        519,
+        211,
+        871,
+        428,
+        863,
+        736,
+        576,
+        854,
+        746,
+        777,
+        199,
+        533
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on cello, one instrument only.",
+      "mapper_seed": 41,
+      "group": "cello",
+      "tokens": [
+        391,
+        671,
+        1013,
+        664,
+        200,
+        718,
+        643,
+        639,
+        429,
+        342,
+        310,
+        410
+      ]
+    },
+    {
+      "prompt": "A solo cello performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        391,
+        207,
+        298,
+        604,
+        72,
+        597,
+        55,
+        123,
+        208,
+        597,
+        248,
+        908
+      ]
+    },
+    {
+      "prompt": "An intimate recording of cello playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        181,
+        604,
+        600,
+        31,
+        666,
+        34,
+        146,
+        154,
+        485,
+        81
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on cello alone.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        280,
+        758,
+        298,
+        992,
+        249,
+        509,
+        295,
+        319,
+        497,
+        972,
+        515,
+        773
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        106,
+        501,
+        159,
+        741,
+        362,
+        915,
+        95,
+        937,
+        941,
+        892
+      ]
+    },
+    {
+      "prompt": "A slow expressive cello solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        391,
+        6,
+        401,
+        422,
+        266,
+        547,
+        571,
+        185,
+        129,
+        446,
+        392,
+        531
+      ]
+    },
+    {
+      "prompt": "Bright cello playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        838,
+        207,
+        553,
+        154,
+        457,
+        625,
+        179,
+        680,
+        433,
+        237,
+        561,
+        606
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on cello in a small recital room.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        391,
+        758,
+        1013,
+        604,
+        573,
+        446,
+        509,
+        319,
+        766,
+        705,
+        443,
+        488
+      ]
+    },
+    {
+      "prompt": "A quiet cello melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        401,
+        860,
+        724,
+        571,
+        476,
+        320,
+        653,
+        4,
+        383,
+        844
+      ]
+    },
+    {
+      "prompt": "Fast lively cello music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        280,
+        967,
+        553,
+        729,
+        573,
+        403,
+        749,
+        824,
+        654,
+        243,
+        542,
+        736
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo cello.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        99,
+        6,
+        339,
+        176,
+        612,
+        140,
+        13,
+        397,
+        668,
+        426,
+        158,
+        189
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on cello.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        473,
+        211,
+        140,
+        212,
+        214,
+        736,
+        109,
+        766,
+        201,
+        920,
+        701,
+        15
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on cello, one instrument only.",
+      "mapper_seed": 61,
+      "group": "cello",
+      "tokens": [
+        391,
+        671,
+        1013,
+        254,
+        280,
+        197,
+        643,
+        899,
+        919,
+        907,
+        590,
+        1011
+      ]
+    },
+    {
+      "prompt": "A solo harp performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        215,
+        327,
+        272,
+        694,
+        625,
+        819,
+        862,
+        948,
+        485,
+        706,
+        482
+      ]
+    },
+    {
+      "prompt": "An intimate recording of harp playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        140,
+        327,
+        134,
+        597,
+        677,
+        819,
+        104,
+        628,
+        220,
+        29,
+        786
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on harp alone.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        468,
+        327,
+        134,
+        552,
+        16,
+        819,
+        602,
+        292,
+        1019,
+        627,
+        872
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        870,
+        267,
+        986,
+        972,
+        612,
+        502,
+        819,
+        871,
+        204,
+        576,
+        683,
+        871
+      ]
+    },
+    {
+      "prompt": "A slow expressive harp solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        640,
+        401,
+        134,
+        532,
+        197,
+        570,
+        185,
+        948,
+        342,
+        313,
+        360
+      ]
+    },
+    {
+      "prompt": "Bright harp playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        353,
+        186,
+        434,
+        154,
+        691,
+        625,
+        819,
+        390,
+        132,
+        266,
+        409,
+        621
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on harp in a small recital room.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        304,
+        327,
+        61,
+        824,
+        356,
+        999,
+        899,
+        134,
+        421,
+        693,
+        482
+      ]
+    },
+    {
+      "prompt": "A quiet harp melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        640,
+        6,
+        356,
+        597,
+        677,
+        33,
+        786,
+        471,
+        803,
+        689,
+        437
+      ]
+    },
+    {
+      "prompt": "Fast lively harp music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        870,
+        559,
+        915,
+        972,
+        32,
+        16,
+        576,
+        757,
+        144,
+        342,
+        702,
+        204
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo harp.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        419,
+        13,
+        794,
+        355,
+        200,
+        454,
+        483,
+        201,
+        711,
+        312,
+        360
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on harp.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        218,
+        247,
+        140,
+        832,
+        597,
+        736,
+        961,
+        766,
+        841,
+        633,
+        454,
+        509
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on harp, one instrument only.",
+      "mapper_seed": 5,
+      "group": "harp",
+      "tokens": [
+        870,
+        982,
+        118,
+        272,
+        597,
+        206,
+        579,
+        899,
+        46,
+        703,
+        360,
+        482
+      ]
+    },
+    {
+      "prompt": "A solo harp performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        275,
+        327,
+        240,
+        532,
+        356,
+        113,
+        984,
+        59,
+        373,
+        599,
+        437
+      ]
+    },
+    {
+      "prompt": "An intimate recording of harp playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        454,
+        327,
+        240,
+        597,
+        754,
+        819,
+        293,
+        424,
+        252,
+        1007,
+        895
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on harp alone.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        468,
+        327,
+        452,
+        671,
+        16,
+        819,
+        264,
+        153,
+        169,
+        358,
+        242
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        870,
+        267,
+        502,
+        292,
+        552,
+        995,
+        819,
+        871,
+        783,
+        342,
+        348,
+        447
+      ]
+    },
+    {
+      "prompt": "A slow expressive harp solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        640,
+        401,
+        422,
+        465,
+        451,
+        579,
+        346,
+        948,
+        342,
+        601,
+        360
+      ]
+    },
+    {
+      "prompt": "Bright harp playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        353,
+        186,
+        434,
+        154,
+        532,
+        625,
+        815,
+        14,
+        1,
+        663,
+        837,
+        478
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on harp in a small recital room.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        304,
+        327,
+        61,
+        465,
+        356,
+        819,
+        899,
+        987,
+        862,
+        346,
+        48
+      ]
+    },
+    {
+      "prompt": "A quiet harp melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        773,
+        181,
+        449,
+        597,
+        317,
+        819,
+        874,
+        578,
+        1022,
+        687,
+        30
+      ]
+    },
+    {
+      "prompt": "Fast lively harp music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        870,
+        891,
+        915,
+        972,
+        759,
+        16,
+        639,
+        14,
+        520,
+        690,
+        741,
+        482
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo harp.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        419,
+        140,
+        794,
+        966,
+        200,
+        13,
+        392,
+        335,
+        549,
+        51,
+        774
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on harp.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        218,
+        657,
+        140,
+        832,
+        597,
+        736,
+        927,
+        486,
+        560,
+        827,
+        695,
+        654
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on harp, one instrument only.",
+      "mapper_seed": 23,
+      "group": "harp",
+      "tokens": [
+        870,
+        671,
+        118,
+        272,
+        597,
+        266,
+        512,
+        639,
+        59,
+        342,
+        635,
+        482
+      ]
+    },
+    {
+      "prompt": "A solo harp performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        536,
+        327,
+        604,
+        486,
+        625,
+        320,
+        729,
+        542,
+        140,
+        443,
+        482
+      ]
+    },
+    {
+      "prompt": "An intimate recording of harp playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        140,
+        327,
+        134,
+        597,
+        754,
+        233,
+        104,
+        1007,
+        342,
+        125,
+        692
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on harp alone.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        881,
+        327,
+        902,
+        387,
+        16,
+        819,
+        98,
+        451,
+        5,
+        196,
+        30
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        870,
+        267,
+        742,
+        546,
+        612,
+        415,
+        819,
+        899,
+        6,
+        816,
+        836,
+        358
+      ]
+    },
+    {
+      "prompt": "A slow expressive harp solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        176,
+        401,
+        272,
+        671,
+        470,
+        463,
+        821,
+        451,
+        443,
+        165,
+        745
+      ]
+    },
+    {
+      "prompt": "Bright harp playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        353,
+        918,
+        434,
+        902,
+        824,
+        16,
+        831,
+        899,
+        267,
+        663,
+        121,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on harp in a small recital room.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        792,
+        669,
+        604,
+        824,
+        356,
+        819,
+        899,
+        807,
+        641,
+        346,
+        437
+      ]
+    },
+    {
+      "prompt": "A quiet harp melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        215,
+        6,
+        127,
+        700,
+        677,
+        847,
+        821,
+        628,
+        967,
+        19,
+        397
+      ]
+    },
+    {
+      "prompt": "Fast lively harp music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        86,
+        346,
+        915,
+        202,
+        432,
+        16,
+        847,
+        600,
+        631,
+        915,
+        442,
+        660
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo harp.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        218,
+        419,
+        13,
+        156,
+        214,
+        266,
+        49,
+        483,
+        919,
+        1021,
+        770,
+        360
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on harp.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        36,
+        247,
+        140,
+        832,
+        597,
+        813,
+        134,
+        42,
+        59,
+        181,
+        303,
+        6
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on harp, one instrument only.",
+      "mapper_seed": 41,
+      "group": "harp",
+      "tokens": [
+        870,
+        982,
+        434,
+        272,
+        671,
+        266,
+        138,
+        554,
+        451,
+        16,
+        993,
+        982
+      ]
+    },
+    {
+      "prompt": "A solo harp performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        215,
+        327,
+        240,
+        532,
+        1002,
+        847,
+        821,
+        940,
+        929,
+        166,
+        689
+      ]
+    },
+    {
+      "prompt": "An intimate recording of harp playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        140,
+        327,
+        208,
+        597,
+        317,
+        819,
+        899,
+        1007,
+        179,
+        417,
+        885
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on harp alone.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        186,
+        327,
+        202,
+        532,
+        16,
+        819,
+        821,
+        497,
+        795,
+        271,
+        676
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        870,
+        267,
+        765,
+        292,
+        612,
+        356,
+        311,
+        582,
+        595,
+        576,
+        702,
+        482
+      ]
+    },
+    {
+      "prompt": "A slow expressive harp solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        640,
+        401,
+        422,
+        532,
+        813,
+        401,
+        185,
+        134,
+        485,
+        120,
+        818
+      ]
+    },
+    {
+      "prompt": "Bright harp playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        870,
+        918,
+        1020,
+        902,
+        32,
+        625,
+        320,
+        14,
+        927,
+        332,
+        409,
+        482
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on harp in a small recital room.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        792,
+        816,
+        356,
+        824,
+        625,
+        819,
+        899,
+        135,
+        909,
+        614,
+        395
+      ]
+    },
+    {
+      "prompt": "A quiet harp melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        640,
+        6,
+        356,
+        443,
+        263,
+        905,
+        357,
+        838,
+        576,
+        789,
+        397
+      ]
+    },
+    {
+      "prompt": "Fast lively harp music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        870,
+        891,
+        915,
+        788,
+        432,
+        768,
+        639,
+        704,
+        927,
+        847,
+        770,
+        482
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo harp.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        218,
+        419,
+        140,
+        794,
+        214,
+        223,
+        706,
+        392,
+        201,
+        568,
+        619,
+        667
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on harp.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        473,
+        640,
+        140,
+        832,
+        355,
+        736,
+        327,
+        821,
+        717,
+        633,
+        80,
+        817
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on harp, one instrument only.",
+      "mapper_seed": 61,
+      "group": "harp",
+      "tokens": [
+        870,
+        982,
+        434,
+        272,
+        671,
+        356,
+        1023,
+        938,
+        41,
+        20,
+        281,
+        482
+      ]
+    },
+    {
+      "prompt": "A solo saxophone performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        5,
+        146,
+        200,
+        972,
+        839,
+        658,
+        943,
+        567,
+        129,
+        388
+      ]
+    },
+    {
+      "prompt": "An intimate recording of saxophone playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        207,
+        502,
+        366,
+        192,
+        75,
+        666,
+        243,
+        53,
+        561,
+        214,
+        51
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on saxophone alone.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        468,
+        949,
+        976,
+        387,
+        608,
+        337,
+        668,
+        729,
+        707,
+        975,
+        69
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        984,
+        987,
+        714,
+        986,
+        579,
+        163,
+        767,
+        915,
+        783,
+        352,
+        157,
+        520
+      ]
+    },
+    {
+      "prompt": "A slow expressive saxophone solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        644,
+        180,
+        340,
+        366,
+        266,
+        974,
+        434,
+        523,
+        290,
+        454,
+        421,
+        492
+      ]
+    },
+    {
+      "prompt": "Bright saxophone playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        453,
+        207,
+        5,
+        803,
+        83,
+        940,
+        248,
+        563,
+        93,
+        46,
+        127,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on saxophone in a small recital room.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        1013,
+        803,
+        266,
+        422,
+        921,
+        447,
+        176,
+        104,
+        532,
+        428
+      ]
+    },
+    {
+      "prompt": "A quiet saxophone melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        773,
+        5,
+        366,
+        344,
+        244,
+        337,
+        216,
+        161,
+        933,
+        1019,
+        69
+      ]
+    },
+    {
+      "prompt": "Fast lively saxophone music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        171,
+        111,
+        961,
+        32,
+        672,
+        596,
+        140,
+        765,
+        488,
+        7,
+        689
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo saxophone.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        99,
+        56,
+        321,
+        566,
+        966,
+        974,
+        129,
+        29,
+        698,
+        209,
+        269,
+        756
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on saxophone.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        473,
+        247,
+        140,
+        134,
+        863,
+        736,
+        496,
+        874,
+        689,
+        758,
+        313,
+        360
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on saxophone, one instrument only.",
+      "mapper_seed": 5,
+      "group": "saxophone",
+      "tokens": [
+        213,
+        180,
+        452,
+        46,
+        258,
+        477,
+        248,
+        200,
+        675,
+        867,
+        625,
+        165
+      ]
+    },
+    {
+      "prompt": "A solo saxophone performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        5,
+        146,
+        200,
+        1003,
+        839,
+        161,
+        943,
+        779,
+        78,
+        428
+      ]
+    },
+    {
+      "prompt": "An intimate recording of saxophone playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        207,
+        502,
+        501,
+        938,
+        422,
+        666,
+        957,
+        631,
+        622,
+        214,
+        619
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on saxophone alone.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        468,
+        949,
+        604,
+        815,
+        898,
+        800,
+        668,
+        14,
+        695,
+        626,
+        695
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        987,
+        949,
+        396,
+        1016,
+        683,
+        373,
+        668,
+        783,
+        731,
+        785,
+        334
+      ]
+    },
+    {
+      "prompt": "A slow expressive saxophone solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        644,
+        180,
+        340,
+        224,
+        337,
+        113,
+        362,
+        226,
+        290,
+        780,
+        68,
+        346
+      ]
+    },
+    {
+      "prompt": "Bright saxophone playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        207,
+        5,
+        803,
+        32,
+        612,
+        1000,
+        772,
+        851,
+        881,
+        499,
+        193
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on saxophone in a small recital room.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        1013,
+        211,
+        266,
+        446,
+        921,
+        898,
+        553,
+        916,
+        377,
+        118
+      ]
+    },
+    {
+      "prompt": "A quiet saxophone melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        773,
+        5,
+        146,
+        344,
+        995,
+        103,
+        224,
+        33,
+        169,
+        670,
+        745
+      ]
+    },
+    {
+      "prompt": "Fast lively saxophone music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        171,
+        111,
+        961,
+        32,
+        391,
+        667,
+        140,
+        734,
+        25,
+        20,
+        950
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo saxophone.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        391,
+        21,
+        13,
+        35,
+        701,
+        974,
+        961,
+        29,
+        698,
+        181,
+        505,
+        883
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on saxophone.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        473,
+        247,
+        140,
+        832,
+        863,
+        736,
+        109,
+        874,
+        958,
+        696,
+        199,
+        342
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on saxophone, one instrument only.",
+      "mapper_seed": 23,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        1013,
+        46,
+        889,
+        422,
+        248,
+        1011,
+        685,
+        692,
+        878,
+        114
+      ]
+    },
+    {
+      "prompt": "A solo saxophone performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        5,
+        146,
+        439,
+        962,
+        720,
+        921,
+        57,
+        127,
+        790,
+        620
+      ]
+    },
+    {
+      "prompt": "An intimate recording of saxophone playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        207,
+        502,
+        366,
+        121,
+        439,
+        778,
+        1004,
+        153,
+        787,
+        214,
+        685
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on saxophone alone.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        249,
+        949,
+        94,
+        67,
+        233,
+        666,
+        668,
+        944,
+        658,
+        321,
+        1012
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        987,
+        949,
+        396,
+        611,
+        890,
+        715,
+        446,
+        685,
+        608,
+        966,
+        793
+      ]
+    },
+    {
+      "prompt": "A slow expressive saxophone solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        401,
+        224,
+        337,
+        162,
+        220,
+        200,
+        177,
+        561,
+        920,
+        676
+      ]
+    },
+    {
+      "prompt": "Bright saxophone playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        453,
+        207,
+        5,
+        803,
+        824,
+        84,
+        961,
+        567,
+        48,
+        1005,
+        434,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on saxophone in a small recital room.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        401,
+        46,
+        337,
+        742,
+        576,
+        177,
+        129,
+        304,
+        420,
+        88
+      ]
+    },
+    {
+      "prompt": "A quiet saxophone melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        773,
+        5,
+        366,
+        266,
+        244,
+        923,
+        224,
+        675,
+        830,
+        624,
+        11
+      ]
+    },
+    {
+      "prompt": "Fast lively saxophone music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        171,
+        111,
+        961,
+        579,
+        672,
+        717,
+        757,
+        279,
+        358,
+        499,
+        248
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo saxophone.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        949,
+        420,
+        321,
+        209,
+        286,
+        378,
+        666,
+        483,
+        376,
+        415,
+        505,
+        254
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on saxophone.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        36,
+        247,
+        140,
+        541,
+        344,
+        736,
+        81,
+        766,
+        184,
+        142,
+        303,
+        686
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on saxophone, one instrument only.",
+      "mapper_seed": 41,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        1013,
+        803,
+        889,
+        422,
+        248,
+        191,
+        601,
+        227,
+        929,
+        606
+      ]
+    },
+    {
+      "prompt": "A solo saxophone performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        5,
+        146,
+        439,
+        962,
+        874,
+        449,
+        716,
+        895,
+        803,
+        512
+      ]
+    },
+    {
+      "prompt": "An intimate recording of saxophone playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        207,
+        949,
+        1009,
+        938,
+        422,
+        778,
+        1004,
+        578,
+        334,
+        445,
+        959
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on saxophone alone.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        56,
+        218,
+        992,
+        249,
+        77,
+        362,
+        915,
+        153,
+        114,
+        281,
+        170
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        1001,
+        714,
+        501,
+        612,
+        502,
+        802,
+        160,
+        783,
+        815,
+        794,
+        745
+      ]
+    },
+    {
+      "prompt": "A slow expressive saxophone solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        644,
+        21,
+        5,
+        1003,
+        628,
+        422,
+        295,
+        573,
+        290,
+        427,
+        542,
+        747
+      ]
+    },
+    {
+      "prompt": "Bright saxophone playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        847,
+        5,
+        154,
+        701,
+        184,
+        550,
+        466,
+        851,
+        663,
+        346,
+        463
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on saxophone in a small recital room.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        229,
+        207,
+        553,
+        146,
+        297,
+        446,
+        1009,
+        170,
+        41,
+        780,
+        772,
+        610
+      ]
+    },
+    {
+      "prompt": "A quiet saxophone melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        963,
+        359,
+        224,
+        344,
+        939,
+        792,
+        170,
+        290,
+        687,
+        745,
+        971
+      ]
+    },
+    {
+      "prompt": "Fast lively saxophone music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        672,
+        171,
+        111,
+        167,
+        840,
+        672,
+        200,
+        474,
+        327,
+        120,
+        703,
+        963
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo saxophone.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        949,
+        56,
+        525,
+        918,
+        78,
+        974,
+        34,
+        29,
+        698,
+        1014,
+        505,
+        667
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on saxophone.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        473,
+        247,
+        140,
+        832,
+        118,
+        274,
+        109,
+        47,
+        945,
+        280,
+        80,
+        298
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on saxophone, one instrument only.",
+      "mapper_seed": 61,
+      "group": "saxophone",
+      "tokens": [
+        213,
+        207,
+        675,
+        46,
+        448,
+        75,
+        1000,
+        720,
+        860,
+        857,
+        764,
+        830
+      ]
+    },
+    {
+      "prompt": "A solo synthesizer performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        353,
+        328,
+        321,
+        551,
+        684,
+        372,
+        388,
+        389,
+        26,
+        198,
+        303,
+        451
+      ]
+    },
+    {
+      "prompt": "An intimate recording of synthesizer playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        521,
+        328,
+        965,
+        356,
+        503,
+        31,
+        360,
+        464,
+        279,
+        173,
+        147,
+        926
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on synthesizer alone.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        468,
+        512,
+        370,
+        280,
+        140,
+        704,
+        880,
+        277,
+        465,
+        41,
+        209
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        672,
+        647,
+        512,
+        501,
+        875,
+        502,
+        145,
+        181,
+        846,
+        457,
+        943,
+        1000
+      ]
+    },
+    {
+      "prompt": "A slow expressive synthesizer solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        229,
+        214,
+        268,
+        1017,
+        73,
+        162,
+        67,
+        3,
+        915,
+        135,
+        522,
+        787
+      ]
+    },
+    {
+      "prompt": "Bright synthesizer playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        67,
+        1004,
+        512,
+        677,
+        66,
+        508,
+        165,
+        757,
+        693,
+        316,
+        1014,
+        201
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on synthesizer in a small recital room.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        229,
+        554,
+        491,
+        46,
+        503,
+        209,
+        947,
+        860,
+        573,
+        360,
+        398,
+        1023
+      ]
+    },
+    {
+      "prompt": "A quiet synthesizer melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        737,
+        949,
+        619,
+        100,
+        450,
+        457,
+        211,
+        142,
+        245,
+        134,
+        894,
+        543
+      ]
+    },
+    {
+      "prompt": "Fast lively synthesizer music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        844,
+        838,
+        434,
+        202,
+        869,
+        718,
+        454,
+        345,
+        969,
+        917,
+        977,
+        588
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo synthesizer.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        214,
+        491,
+        862,
+        503,
+        140,
+        573,
+        190,
+        342,
+        882,
+        775,
+        732
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on synthesizer.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        93,
+        609,
+        871,
+        832,
+        823,
+        376,
+        255,
+        854,
+        786,
+        945,
+        466,
+        292
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on synthesizer, one instrument only.",
+      "mapper_seed": 5,
+      "group": "synthesizer",
+      "tokens": [
+        71,
+        610,
+        1013,
+        719,
+        414,
+        197,
+        205,
+        986,
+        46,
+        272,
+        879,
+        705
+      ]
+    },
+    {
+      "prompt": "A solo synthesizer performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        353,
+        328,
+        321,
+        551,
+        450,
+        652,
+        739,
+        860,
+        129,
+        702,
+        881,
+        19
+      ]
+    },
+    {
+      "prompt": "An intimate recording of synthesizer playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        449,
+        328,
+        965,
+        356,
+        711,
+        31,
+        784,
+        880,
+        614,
+        639,
+        30,
+        926
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on synthesizer alone.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        468,
+        512,
+        860,
+        280,
+        741,
+        315,
+        289,
+        476,
+        695,
+        964,
+        451
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        672,
+        433,
+        920,
+        501,
+        612,
+        456,
+        145,
+        283,
+        765,
+        352,
+        674,
+        621
+      ]
+    },
+    {
+      "prompt": "A slow expressive synthesizer solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        36,
+        214,
+        216,
+        1017,
+        266,
+        822,
+        475,
+        301,
+        996,
+        998,
+        68,
+        19
+      ]
+    },
+    {
+      "prompt": "Bright synthesizer playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        67,
+        838,
+        131,
+        319,
+        888,
+        508,
+        49,
+        3,
+        693,
+        566,
+        1014,
+        262
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on synthesizer in a small recital room.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        229,
+        328,
+        491,
+        604,
+        457,
+        478,
+        290,
+        363,
+        578,
+        421,
+        713,
+        177
+      ]
+    },
+    {
+      "prompt": "A quiet synthesizer melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        737,
+        949,
+        619,
+        847,
+        261,
+        306,
+        952,
+        1002,
+        142,
+        498,
+        524,
+        583
+      ]
+    },
+    {
+      "prompt": "Fast lively synthesizer music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        844,
+        891,
+        434,
+        328,
+        869,
+        24,
+        708,
+        600,
+        435,
+        970,
+        85,
+        949
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo synthesizer.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        977,
+        671,
+        466,
+        1008,
+        200,
+        371,
+        808,
+        68,
+        979,
+        573,
+        306
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on synthesizer.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        93,
+        211,
+        871,
+        401,
+        355,
+        543,
+        360,
+        854,
+        423,
+        431,
+        18,
+        622
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on synthesizer, one instrument only.",
+      "mapper_seed": 23,
+      "group": "synthesizer",
+      "tokens": [
+        71,
+        610,
+        1013,
+        719,
+        414,
+        652,
+        138,
+        998,
+        407,
+        481,
+        635,
+        619
+      ]
+    },
+    {
+      "prompt": "A solo synthesizer performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        67,
+        328,
+        829,
+        551,
+        684,
+        904,
+        739,
+        151,
+        161,
+        830,
+        303,
+        804
+      ]
+    },
+    {
+      "prompt": "An intimate recording of synthesizer playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        353,
+        328,
+        965,
+        860,
+        640,
+        677,
+        739,
+        738,
+        578,
+        98,
+        743,
+        69
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on synthesizer alone.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        834,
+        190,
+        860,
+        280,
+        14,
+        231,
+        992,
+        492,
+        519,
+        765,
+        834
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        572,
+        56,
+        5,
+        320,
+        83,
+        592,
+        908,
+        140,
+        446,
+        166,
+        966,
+        372
+      ]
+    },
+    {
+      "prompt": "A slow expressive synthesizer solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        229,
+        328,
+        698,
+        422,
+        73,
+        939,
+        67,
+        867,
+        543,
+        31,
+        499,
+        649
+      ]
+    },
+    {
+      "prompt": "Bright synthesizer playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        67,
+        838,
+        433,
+        803,
+        303,
+        308,
+        672,
+        720,
+        927,
+        248,
+        127,
+        122
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on synthesizer in a small recital room.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        229,
+        328,
+        491,
+        225,
+        457,
+        511,
+        572,
+        630,
+        405,
+        372,
+        272,
+        926
+      ]
+    },
+    {
+      "prompt": "A quiet synthesizer melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        737,
+        949,
+        619,
+        100,
+        880,
+        816,
+        55,
+        860,
+        392,
+        670,
+        893,
+        644
+      ]
+    },
+    {
+      "prompt": "Fast lively synthesizer music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        844,
+        838,
+        434,
+        920,
+        32,
+        24,
+        510,
+        600,
+        685,
+        481,
+        151,
+        660
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo synthesizer.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        214,
+        321,
+        465,
+        702,
+        974,
+        475,
+        190,
+        541,
+        951,
+        246,
+        756
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on synthesizer.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        417,
+        609,
+        871,
+        401,
+        385,
+        736,
+        292,
+        392,
+        786,
+        406,
+        849,
+        90
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on synthesizer, one instrument only.",
+      "mapper_seed": 41,
+      "group": "synthesizer",
+      "tokens": [
+        988,
+        671,
+        1013,
+        719,
+        853,
+        652,
+        205,
+        390,
+        189,
+        186,
+        492,
+        842
+      ]
+    },
+    {
+      "prompt": "A solo synthesizer performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        67,
+        328,
+        829,
+        356,
+        539,
+        939,
+        546,
+        720,
+        155,
+        830,
+        133,
+        289
+      ]
+    },
+    {
+      "prompt": "An intimate recording of synthesizer playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        521,
+        328,
+        473,
+        837,
+        361,
+        44,
+        109,
+        990,
+        6,
+        46,
+        168,
+        84
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on synthesizer alone.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        17,
+        834,
+        190,
+        860,
+        993,
+        140,
+        377,
+        814,
+        334,
+        704,
+        126,
+        400
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        672,
+        433,
+        415,
+        20,
+        612,
+        502,
+        145,
+        767,
+        670,
+        171,
+        607,
+        84
+      ]
+    },
+    {
+      "prompt": "A slow expressive synthesizer solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        537,
+        214,
+        268,
+        225,
+        624,
+        822,
+        109,
+        531,
+        878,
+        183,
+        443,
+        485
+      ]
+    },
+    {
+      "prompt": "Bright synthesizer playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        67,
+        838,
+        698,
+        319,
+        66,
+        105,
+        49,
+        226,
+        237,
+        237,
+        586,
+        330
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on synthesizer in a small recital room.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        229,
+        554,
+        268,
+        860,
+        575,
+        390,
+        295,
+        860,
+        920,
+        971,
+        477,
+        162
+      ]
+    },
+    {
+      "prompt": "A quiet synthesizer melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        737,
+        949,
+        442,
+        860,
+        261,
+        928,
+        211,
+        834,
+        974,
+        669,
+        581,
+        321
+      ]
+    },
+    {
+      "prompt": "Fast lively synthesizer music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        844,
+        838,
+        520,
+        613,
+        34,
+        972,
+        571,
+        757,
+        25,
+        135,
+        263,
+        459
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo synthesizer.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        675,
+        214,
+        239,
+        862,
+        214,
+        186,
+        145,
+        531,
+        327,
+        622,
+        370,
+        425
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on synthesizer.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        473,
+        818,
+        871,
+        832,
+        863,
+        543,
+        109,
+        766,
+        413,
+        595,
+        19,
+        872
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on synthesizer, one instrument only.",
+      "mapper_seed": 61,
+      "group": "synthesizer",
+      "tokens": [
+        71,
+        883,
+        952,
+        719,
+        414,
+        197,
+        249,
+        938,
+        407,
+        60,
+        874,
+        397
+      ]
+    },
+    {
+      "prompt": "A solo drums performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        229,
+        207,
+        143,
+        551,
+        501,
+        463,
+        759,
+        624,
+        707,
+        447,
+        286,
+        126
+      ]
+    },
+    {
+      "prompt": "An intimate recording of drums playing a simple lullaby.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        765,
+        140,
+        181,
+        426,
+        1011,
+        677,
+        551,
+        375,
+        451,
+        61,
+        706,
+        397
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on drums alone.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        274,
+        86,
+        321,
+        787,
+        815,
+        405,
+        706,
+        880,
+        424,
+        707,
+        570,
+        380
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        255,
+        207,
+        106,
+        986,
+        474,
+        422,
+        34,
+        915,
+        816,
+        352,
+        1019,
+        167
+      ]
+    },
+    {
+      "prompt": "A slow expressive drums solo with long pauses between phrases.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        644,
+        963,
+        401,
+        981,
+        266,
+        836,
+        915,
+        691,
+        807,
+        131,
+        313,
+        89
+      ]
+    },
+    {
+      "prompt": "Bright drums playing quick ascending and descending melodic runs.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        434,
+        838,
+        434,
+        154,
+        694,
+        645,
+        749,
+        721,
+        994,
+        237,
+        557,
+        707
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on drums in a small recital room.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        644,
+        207,
+        731,
+        61,
+        357,
+        802,
+        433,
+        893,
+        839,
+        130,
+        310,
+        908
+      ]
+    },
+    {
+      "prompt": "A quiet drums melody, warm tone, no backing instruments.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        312,
+        253,
+        881,
+        551,
+        724,
+        405,
+        819,
+        277,
+        379,
+        148,
+        2,
+        792
+      ]
+    },
+    {
+      "prompt": "Fast lively drums music with a clear playful tune.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        665,
+        413,
+        218,
+        167,
+        924,
+        606,
+        616,
+        277,
+        711,
+        383,
+        685,
+        234
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo drums.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        391,
+        300,
+        13,
+        794,
+        966,
+        138,
+        833,
+        939,
+        518,
+        711,
+        775,
+        426
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on drums.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        449,
+        211,
+        140,
+        497,
+        597,
+        736,
+        407,
+        854,
+        998,
+        975,
+        732,
+        783
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on drums, one instrument only.",
+      "mapper_seed": 5,
+      "group": "drums",
+      "tokens": [
+        194,
+        610,
+        852,
+        664,
+        114,
+        477,
+        643,
+        120,
+        711,
+        154,
+        405,
+        757
+      ]
+    },
+    {
+      "prompt": "A solo drums performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        229,
+        207,
+        143,
+        551,
+        626,
+        147,
+        675,
+        790,
+        105,
+        29,
+        559,
+        285
+      ]
+    },
+    {
+      "prompt": "An intimate recording of drums playing a simple lullaby.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        765,
+        140,
+        181,
+        426,
+        815,
+        477,
+        633,
+        357,
+        374,
+        326,
+        64,
+        856
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on drums alone.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        751,
+        86,
+        312,
+        181,
+        815,
+        405,
+        276,
+        319,
+        653,
+        193,
+        644,
+        646
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        672,
+        207,
+        1001,
+        963,
+        136,
+        683,
+        337,
+        1011,
+        846,
+        922,
+        38,
+        781
+      ]
+    },
+    {
+      "prompt": "A slow expressive drums solo with long pauses between phrases.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        644,
+        963,
+        401,
+        224,
+        266,
+        836,
+        475,
+        319,
+        632,
+        911,
+        719,
+        750
+      ]
+    },
+    {
+      "prompt": "Bright drums playing quick ascending and descending melodic runs.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        434,
+        778,
+        79,
+        167,
+        257,
+        209,
+        921,
+        720,
+        948,
+        237,
+        557,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on drums in a small recital room.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        644,
+        207,
+        731,
+        61,
+        357,
+        742,
+        433,
+        893,
+        758,
+        21,
+        1004,
+        397
+      ]
+    },
+    {
+      "prompt": "A quiet drums melody, warm tone, no backing instruments.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        312,
+        773,
+        217,
+        1005,
+        705,
+        742,
+        776,
+        668,
+        402,
+        740,
+        772,
+        630
+      ]
+    },
+    {
+      "prompt": "Fast lively drums music with a clear playful tune.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        653,
+        407,
+        39,
+        654,
+        924,
+        506,
+        917,
+        774,
+        713,
+        698,
+        43,
+        248
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo drums.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        680,
+        419,
+        13,
+        132,
+        966,
+        571,
+        34,
+        821,
+        761,
+        898,
+        30,
+        360
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on drums.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        473,
+        1007,
+        140,
+        832,
+        597,
+        736,
+        686,
+        766,
+        362,
+        711,
+        669,
+        900
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on drums, one instrument only.",
+      "mapper_seed": 23,
+      "group": "drums",
+      "tokens": [
+        194,
+        610,
+        852,
+        937,
+        114,
+        477,
+        394,
+        938,
+        984,
+        180,
+        549,
+        246
+      ]
+    },
+    {
+      "prompt": "A solo drums performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        229,
+        207,
+        1013,
+        376,
+        626,
+        432,
+        190,
+        430,
+        878,
+        871,
+        257,
+        826
+      ]
+    },
+    {
+      "prompt": "An intimate recording of drums playing a simple lullaby.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        765,
+        140,
+        502,
+        426,
+        597,
+        677,
+        551,
+        310,
+        105,
+        61,
+        446,
+        523
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on drums alone.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        737,
+        949,
+        619,
+        100,
+        815,
+        480,
+        153,
+        668,
+        913,
+        104,
+        514,
+        626
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        213,
+        246,
+        650,
+        501,
+        433,
+        877,
+        362,
+        540,
+        816,
+        61,
+        1017,
+        167
+      ]
+    },
+    {
+      "prompt": "A slow expressive drums solo with long pauses between phrases.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        644,
+        963,
+        401,
+        224,
+        266,
+        836,
+        915,
+        531,
+        274,
+        1003,
+        16,
+        380
+      ]
+    },
+    {
+      "prompt": "Bright drums playing quick ascending and descending melodic runs.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        434,
+        838,
+        79,
+        179,
+        32,
+        506,
+        548,
+        98,
+        41,
+        383,
+        454,
+        707
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on drums in a small recital room.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        644,
+        918,
+        731,
+        604,
+        297,
+        477,
+        1012,
+        541,
+        623,
+        903,
+        501,
+        376
+      ]
+    },
+    {
+      "prompt": "A quiet drums melody, warm tone, no backing instruments.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        312,
+        253,
+        881,
+        551,
+        615,
+        483,
+        520,
+        322,
+        105,
+        909,
+        115,
+        982
+      ]
+    },
+    {
+      "prompt": "Fast lively drums music with a clear playful tune.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        653,
+        171,
+        39,
+        167,
+        872,
+        100,
+        717,
+        774,
+        116,
+        651,
+        770,
+        949
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo drums.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        680,
+        180,
+        321,
+        513,
+        63,
+        608,
+        34,
+        483,
+        440,
+        27,
+        694,
+        360
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on drums.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        598,
+        657,
+        140,
+        428,
+        597,
+        451,
+        81,
+        103,
+        241,
+        740,
+        235,
+        286
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on drums, one instrument only.",
+      "mapper_seed": 41,
+      "group": "drums",
+      "tokens": [
+        194,
+        610,
+        1013,
+        664,
+        684,
+        252,
+        376,
+        631,
+        878,
+        342,
+        849,
+        791
+      ]
+    },
+    {
+      "prompt": "A solo drums performance, unaccompanied, clear instrument tone.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        229,
+        207,
+        166,
+        356,
+        615,
+        9,
+        546,
+        430,
+        105,
+        346,
+        78,
+        309
+      ]
+    },
+    {
+      "prompt": "An intimate recording of drums playing a simple lullaby.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        765,
+        140,
+        502,
+        426,
+        344,
+        677,
+        633,
+        386,
+        354,
+        911,
+        542,
+        938
+      ]
+    },
+    {
+      "prompt": "A gentle waltz played on drums alone.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        897,
+        468,
+        817,
+        992,
+        815,
+        537,
+        276,
+        319,
+        433,
+        268,
+        127,
+        100
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a blues melody with a swinging rhythm.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        672,
+        158,
+        714,
+        209,
+        382,
+        537,
+        337,
+        140,
+        534,
+        414,
+        711,
+        95
+      ]
+    },
+    {
+      "prompt": "A slow expressive drums solo with long pauses between phrases.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        644,
+        21,
+        401,
+        224,
+        357,
+        836,
+        500,
+        799,
+        194,
+        878,
+        245,
+        1003
+      ]
+    },
+    {
+      "prompt": "Bright drums playing quick ascending and descending melodic runs.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        67,
+        918,
+        1010,
+        179,
+        32,
+        105,
+        320,
+        560,
+        680,
+        179,
+        12,
+        1012
+      ]
+    },
+    {
+      "prompt": "A classical solo performed on drums in a small recital room.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        644,
+        918,
+        473,
+        604,
+        982,
+        802,
+        921,
+        847,
+        729,
+        449,
+        484,
+        544
+      ]
+    },
+    {
+      "prompt": "A quiet drums melody, warm tone, no backing instruments.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        312,
+        253,
+        4,
+        172,
+        705,
+        244,
+        963,
+        938,
+        105,
+        503,
+        556,
+        389
+      ]
+    },
+    {
+      "prompt": "Fast lively drums music with a clear playful tune.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        653,
+        163,
+        218,
+        167,
+        633,
+        13,
+        639,
+        704,
+        731,
+        709,
+        983,
+        486
+      ]
+    },
+    {
+      "prompt": "Low notes and a dark melancholy melody on solo drums.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        680,
+        420,
+        684,
+        905,
+        416,
+        200,
+        34,
+        483,
+        227,
+        1021,
+        349,
+        360
+      ]
+    },
+    {
+      "prompt": "High delicate notes played softly on drums.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        473,
+        609,
+        140,
+        832,
+        54,
+        736,
+        109,
+        729,
+        854,
+        633,
+        222,
+        990
+      ]
+    },
+    {
+      "prompt": "A musician practices a scale on drums, one instrument only.",
+      "mapper_seed": 61,
+      "group": "drums",
+      "tokens": [
+        194,
+        610,
+        473,
+        551,
+        476,
+        832,
+        121,
+        15,
+        678,
+        180,
+        944,
+        419
+      ]
+    },
+    {
+      "audio_reference": "concert_grand_11.wav",
+      "audio_sha256": "fa42e66a8d496be5401be7554417bbcaf0ba6bea69564747788a0a6b70173b3b",
+      "group": "audio_piano",
+      "tokens": [
+        1002,
+        128,
+        232,
+        154,
+        824,
+        943,
+        315,
+        345,
+        132,
+        592,
+        718,
+        478
+      ]
+    },
+    {
+      "audio_reference": "piano_jazz_37.wav",
+      "audio_sha256": "2fbd180d53e0c0e1df23af6aadda7f57acef699b83eb7c5494995f8c63c225ba",
+      "group": "audio_piano",
+      "tokens": [
+        525,
+        477,
+        1013,
+        224,
+        439,
+        344,
+        579,
+        33,
+        573,
+        166,
+        30,
+        1012
+      ]
+    },
+    {
+      "audio_reference": "audio.wav",
+      "audio_sha256": "da8a5ea6a7ad7469246dbe26dc526f6175e94e1a85f576819f5e270bbc93c4d1",
+      "group": "audio_piano",
+      "tokens": [
+        1002,
+        423,
+        232,
+        562,
+        415,
+        356,
+        817,
+        821,
+        260,
+        592,
+        629,
+        610
+      ]
+    },
+    {
+      "audio_reference": "guitar_control_11.wav",
+      "audio_sha256": "36475c9948b3ee40c00a3b9ce491d1096723ba44e548a8845d8aa62c20d9d61f",
+      "group": "audio_preserve",
+      "tokens": [
+        6,
+        140,
+        188,
+        19,
+        535,
+        326,
+        43,
+        170,
+        875,
+        783,
+        253,
+        546
+      ]
+    },
+    {
+      "audio_reference": "violin_control_11.wav",
+      "audio_sha256": "95e04e0cf2f00e0abbbc0ff75d916e0f9493d141f99304570c013115dc995788",
+      "group": "audio_preserve",
+      "tokens": [
+        644,
+        207,
+        829,
+        225,
+        936,
+        344,
+        295,
+        319,
+        653,
+        292,
+        321,
+        889
+      ]
+    },
+    {
+      "audio_reference": "flute_control_37.wav",
+      "audio_sha256": "edf1be3dafe95941f0f43ba7a3938c24df2d398952bf72ab6b9ff6f715c5f4da",
+      "group": "audio_preserve",
+      "tokens": [
+        800,
+        890,
+        216,
+        644,
+        127,
+        478,
+        654,
+        242,
+        578,
+        292,
+        1014,
+        889
+      ]
+    },
+    {
+      "audio_reference": "guitar.wav",
+      "audio_sha256": "63377dabd5adf2b5475791f29488cefd8940261aaba9938897ef0528243ba7e5",
+      "group": "audio_preserve",
+      "tokens": [
+        605,
+        480,
+        774,
+        1009,
+        711,
+        898,
+        985,
+        357,
+        557,
+        783,
+        809,
+        323
+      ]
+    },
+    {
+      "audio_reference": "violin.wav",
+      "audio_sha256": "c06aa342d8babd4ac2ff2e49ab6fd29a38db3159f143209e5de539b95e07e5de",
+      "group": "audio_preserve",
+      "tokens": [
+        644,
+        207,
+        218,
+        225,
+        266,
+        197,
+        362,
+        299,
+        653,
+        46,
+        321,
+        228
+      ]
+    },
+    {
+      "audio_reference": "flute_prompt.wav",
+      "audio_sha256": "d6fe0a02fe8d8e814254046cc16cb2be68ea5a6245d517496c96bbf5c4b8c991",
+      "group": "audio_preserve",
+      "tokens": [
+        800,
+        964,
+        829,
+        103,
+        108,
+        631,
+        654,
+        376,
+        528,
+        322,
+        625,
+        197
+      ]
+    }
+  ],
+  "ridge": 1.0,
+  "output_direction_source_sha256": "5e7fd0bec07072356260dea01b804d616c1f6b96279451c31d7d17679c5c78e8",
+  "formula": "delta = g outer ((old_flute_mean-old_piano_mean) @ W), g = Q^-1 A.T (A Q^-1 A.T)^+ b",
+  "audio_preservation_max_gate": 2.7269853042355408e-15,
+  "text_piano_gate_mean_std": [
+    0.9999999999999986,
+    0.13484789578721687
+  ],
+  "text_control_gate_rms": 0.17123755704420654,
+  "candidates": {
+    "protected": {
+      "patch_sha256": "ed76af004ad5c5c1af327c118bf710342c57a0eedafd7fd561226869ec650d70",
+      "changed_parameters": 786432,
+      "relative_adapter_change": 0.035902366042137146
+    },
+    "stronger": {
+      "patch_sha256": "76c9e49fc2bcfead129b7992bddf1c968e02c06d20bccaae26adbaaca081959e",
+      "changed_parameters": 786432,
+      "relative_adapter_change": 0.050263311713933945
+    }
+  },
+  "source_checkpoint_sha256": "60f3e813d9da4a41a166c734a3074e6d54254c2fc14b0817bad6b8d25cddc044"
+}

@@ -1,0 +1,2311 @@
+{
+  "repo_id": "google/magenta-realtime-2",
+  "revision": "010aa0dcb0dfd27b24f0ad07b4dad63e8f9521cc",
+  "target": "params/depthformer/encoder/body/layers_1/branched_mulan_embedder/mulan_embedder/depth_input_adapter/kernel",
+  "calibration": [
+    {
+      "prompt": "Solo piano playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        145,
+        340,
+        909,
+        562,
+        272,
+        1002,
+        906,
+        204,
+        552,
+        81,
+        497,
+        544
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        800,
+        743,
+        969,
+        484,
+        428,
+        478,
+        109,
+        301,
+        856,
+        758,
+        693,
+        195
+      ]
+    },
+    {
+      "prompt": "A recording of piano playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        699,
+        423,
+        909,
+        9,
+        254,
+        971,
+        56,
+        834,
+        266,
+        318,
+        179,
+        564
+      ]
+    },
+    {
+      "prompt": "A recording of flute playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        800,
+        468,
+        829,
+        524,
+        98,
+        478,
+        446,
+        689,
+        854,
+        560,
+        615,
+        1022
+      ]
+    },
+    {
+      "prompt": "Solo piano, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        215,
+        384,
+        434,
+        561,
+        759,
+        971,
+        763,
+        22,
+        114,
+        426,
+        541,
+        139
+      ]
+    },
+    {
+      "prompt": "Solo flute, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        800,
+        171,
+        434,
+        920,
+        897,
+        612,
+        204,
+        720,
+        367,
+        401,
+        186,
+        626
+      ]
+    },
+    {
+      "prompt": "A jazz improvisation played on piano.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        699,
+        99,
+        232,
+        447,
+        36,
+        323,
+        895,
+        622,
+        41,
+        642,
+        256,
+        400
+      ]
+    },
+    {
+      "prompt": "A jazz improvisation played on flute.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        156,
+        743,
+        190,
+        729,
+        266,
+        95,
+        980,
+        899,
+        25,
+        99,
+        866,
+        529
+      ]
+    },
+    {
+      "prompt": "Warm expressive melody played on piano.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        699,
+        340,
+        581,
+        562,
+        465,
+        818,
+        531,
+        156,
+        114,
+        19,
+        564,
+        354
+      ]
+    },
+    {
+      "prompt": "Warm expressive melody played on flute.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        693,
+        606,
+        969,
+        80,
+        266,
+        62,
+        666,
+        8,
+        459,
+        758,
+        621,
+        831
+      ]
+    },
+    {
+      "prompt": "Soft piano music recorded in a quiet room.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        603,
+        99,
+        6,
+        449,
+        238,
+        307,
+        398,
+        834,
+        698,
+        394,
+        523,
+        325
+      ]
+    },
+    {
+      "prompt": "Soft flute music recorded in a quiet room.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        693,
+        743,
+        327,
+        134,
+        541,
+        478,
+        739,
+        899,
+        962,
+        239,
+        147,
+        135
+      ]
+    },
+    {
+      "prompt": "A lively folk tune performed on piano alone.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        869,
+        967,
+        935,
+        972,
+        469,
+        459,
+        938,
+        450,
+        132,
+        934,
+        347,
+        857
+      ]
+    },
+    {
+      "prompt": "A lively folk tune performed on flute alone.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        653,
+        171,
+        218,
+        338,
+        869,
+        459,
+        119,
+        242,
+        927,
+        836,
+        461,
+        106
+      ]
+    },
+    {
+      "prompt": "A musician plays a beautiful piano solo.",
+      "mapper_seed": 3,
+      "group": "source",
+      "tokens": [
+        863,
+        477,
+        909,
+        338,
+        154,
+        718,
+        763,
+        659,
+        299,
+        457,
+        348,
+        883
+      ]
+    },
+    {
+      "prompt": "A musician plays a beautiful flute solo.",
+      "mapper_seed": 3,
+      "group": "destination",
+      "tokens": [
+        800,
+        743,
+        433,
+        338,
+        720,
+        478,
+        1023,
+        622,
+        927,
+        666,
+        712,
+        42
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        605,
+        695,
+        327,
+        871,
+        6,
+        209,
+        784,
+        611,
+        41,
+        51,
+        396,
+        518
+      ]
+    },
+    {
+      "prompt": "A recording of acoustic guitar playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        6,
+        423,
+        181,
+        338,
+        266,
+        220,
+        576,
+        272,
+        41,
+        367,
+        307,
+        362
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        86,
+        862,
+        915,
+        567,
+        910,
+        891,
+        998,
+        608,
+        814,
+        685,
+        830,
+        745
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        19,
+        466,
+        327,
+        913,
+        6,
+        581,
+        109,
+        411,
+        420,
+        758,
+        646,
+        259
+      ]
+    },
+    {
+      "prompt": "A recording of violin playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        19,
+        466,
+        294,
+        422,
+        404,
+        494,
+        576,
+        590,
+        653,
+        455,
+        461,
+        983
+      ]
+    },
+    {
+      "prompt": "Solo violin, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        644,
+        1017,
+        434,
+        225,
+        928,
+        438,
+        472,
+        331,
+        539,
+        460,
+        953,
+        510
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        800,
+        743,
+        969,
+        484,
+        428,
+        478,
+        109,
+        301,
+        856,
+        758,
+        693,
+        195
+      ]
+    },
+    {
+      "prompt": "A recording of flute playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        800,
+        468,
+        829,
+        524,
+        98,
+        478,
+        446,
+        689,
+        854,
+        560,
+        615,
+        1022
+      ]
+    },
+    {
+      "prompt": "Solo flute, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        800,
+        171,
+        434,
+        920,
+        897,
+        612,
+        204,
+        720,
+        367,
+        401,
+        186,
+        626
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        99,
+        6,
+        547,
+        604,
+        6,
+        113,
+        531,
+        8,
+        771,
+        1005,
+        702,
+        611
+      ]
+    },
+    {
+      "prompt": "A recording of cello playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        391,
+        758,
+        298,
+        604,
+        646,
+        301,
+        671,
+        138,
+        420,
+        212,
+        53,
+        781
+      ]
+    },
+    {
+      "prompt": "Solo cello, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        391,
+        1017,
+        1013,
+        328,
+        840,
+        718,
+        96,
+        860,
+        232,
+        209,
+        953,
+        179
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        218,
+        186,
+        327,
+        240,
+        387,
+        758,
+        463,
+        264,
+        135,
+        963,
+        671,
+        307
+      ]
+    },
+    {
+      "prompt": "A recording of harp playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        218,
+        423,
+        669,
+        562,
+        541,
+        739,
+        906,
+        899,
+        767,
+        936,
+        770,
+        307
+      ]
+    },
+    {
+      "prompt": "Solo harp, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        870,
+        853,
+        434,
+        902,
+        897,
+        768,
+        113,
+        685,
+        123,
+        121,
+        120,
+        482
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        229,
+        330,
+        765,
+        146,
+        48,
+        233,
+        109,
+        438,
+        943,
+        2,
+        1009,
+        69
+      ]
+    },
+    {
+      "prompt": "A recording of saxophone playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        229,
+        21,
+        298,
+        338,
+        266,
+        971,
+        666,
+        659,
+        129,
+        261,
+        434,
+        167
+      ]
+    },
+    {
+      "prompt": "Solo saxophone, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        644,
+        171,
+        5,
+        146,
+        561,
+        921,
+        320,
+        443,
+        743,
+        731,
+        499,
+        885
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        267,
+        328,
+        268,
+        860,
+        668,
+        1002,
+        109,
+        242,
+        41,
+        431,
+        303,
+        610
+      ]
+    },
+    {
+      "prompt": "A recording of synthesizer playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        702,
+        481,
+        491,
+        860,
+        150,
+        209,
+        295,
+        1016,
+        41,
+        292,
+        177,
+        133
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        434,
+        671,
+        434,
+        319,
+        101,
+        197,
+        67,
+        1016,
+        833,
+        481,
+        646,
+        172
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a gentle melody.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        762,
+        454,
+        327,
+        447,
+        503,
+        506,
+        260,
+        308,
+        602,
+        758,
+        649,
+        249
+      ]
+    },
+    {
+      "prompt": "A recording of drums playing a slow classical piece.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        702,
+        423,
+        631,
+        604,
+        254,
+        971,
+        913,
+        984,
+        41,
+        848,
+        214,
+        402
+      ]
+    },
+    {
+      "prompt": "Solo drums, fast repeated notes and arpeggios.",
+      "mapper_seed": 3,
+      "group": "preserve",
+      "tokens": [
+        609,
+        172,
+        434,
+        664,
+        720,
+        432,
+        917,
+        720,
+        420,
+        197,
+        622,
+        701
+      ]
+    },
+    {
+      "prompt": "Solo piano playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        145,
+        99,
+        689,
+        255,
+        731,
+        758,
+        419,
+        622,
+        52,
+        517,
+        300,
+        85
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        800,
+        743,
+        969,
+        212,
+        685,
+        478,
+        43,
+        8,
+        557,
+        460,
+        770,
+        115
+      ]
+    },
+    {
+      "prompt": "A recording of piano playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        145,
+        423,
+        669,
+        378,
+        200,
+        758,
+        419,
+        821,
+        926,
+        193,
+        221,
+        32
+      ]
+    },
+    {
+      "prompt": "A recording of flute playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        702,
+        726,
+        829,
+        604,
+        556,
+        478,
+        375,
+        1016,
+        537,
+        292,
+        207,
+        439
+      ]
+    },
+    {
+      "prompt": "Solo piano, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        863,
+        477,
+        199,
+        179,
+        183,
+        166,
+        223,
+        600,
+        267,
+        967,
+        986,
+        368
+      ]
+    },
+    {
+      "prompt": "Solo flute, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        800,
+        171,
+        433,
+        729,
+        897,
+        166,
+        510,
+        720,
+        851,
+        372,
+        14,
+        897
+      ]
+    },
+    {
+      "prompt": "A jazz improvisation played on piano.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        1002,
+        99,
+        522,
+        447,
+        626,
+        754,
+        798,
+        554,
+        299,
+        988,
+        412,
+        426
+      ]
+    },
+    {
+      "prompt": "A jazz improvisation played on flute.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        788,
+        58,
+        174,
+        576,
+        812,
+        95,
+        717,
+        379,
+        948,
+        193,
+        794,
+        14
+      ]
+    },
+    {
+      "prompt": "Warm expressive melody played on piano.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        835,
+        115,
+        875,
+        255,
+        465,
+        233,
+        261,
+        901,
+        486,
+        777,
+        14,
+        189
+      ]
+    },
+    {
+      "prompt": "Warm expressive melody played on flute.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        693,
+        249,
+        816,
+        212,
+        535,
+        478,
+        320,
+        454,
+        653,
+        592,
+        205,
+        242
+      ]
+    },
+    {
+      "prompt": "Soft piano music recorded in a quiet room.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        603,
+        99,
+        429,
+        449,
+        344,
+        599,
+        633,
+        901,
+        557,
+        80,
+        850,
+        630
+      ]
+    },
+    {
+      "prompt": "Soft flute music recorded in a quiet room.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        693,
+        743,
+        931,
+        1009,
+        711,
+        55,
+        921,
+        461,
+        373,
+        1016,
+        570,
+        150
+      ]
+    },
+    {
+      "prompt": "A lively folk tune performed on piano alone.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        869,
+        88,
+        616,
+        972,
+        838,
+        972,
+        29,
+        79,
+        803,
+        278,
+        174,
+        1010
+      ]
+    },
+    {
+      "prompt": "A lively folk tune performed on flute alone.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        653,
+        171,
+        218,
+        338,
+        869,
+        274,
+        763,
+        549,
+        663,
+        836,
+        726,
+        973
+      ]
+    },
+    {
+      "prompt": "A musician plays a beautiful piano solo.",
+      "mapper_seed": 17,
+      "group": "source",
+      "tokens": [
+        863,
+        115,
+        199,
+        154,
+        434,
+        184,
+        11,
+        98,
+        839,
+        62,
+        990,
+        69
+      ]
+    },
+    {
+      "prompt": "A musician plays a beautiful flute solo.",
+      "mapper_seed": 17,
+      "group": "destination",
+      "tokens": [
+        800,
+        171,
+        433,
+        338,
+        869,
+        478,
+        391,
+        874,
+        15,
+        458,
+        748,
+        493
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        605,
+        140,
+        400,
+        871,
+        6,
+        898,
+        315,
+        357,
+        955,
+        722,
+        25,
+        587
+      ]
+    },
+    {
+      "prompt": "A recording of acoustic guitar playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        6,
+        423,
+        400,
+        1009,
+        694,
+        511,
+        802,
+        170,
+        1015,
+        722,
+        56,
+        621
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        86,
+        862,
+        118,
+        961,
+        507,
+        197,
+        841,
+        0,
+        48,
+        46,
+        223,
+        187
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        19,
+        466,
+        243,
+        212,
+        936,
+        233,
+        109,
+        169,
+        41,
+        758,
+        589,
+        960
+      ]
+    },
+    {
+      "prompt": "A recording of violin playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        19,
+        466,
+        816,
+        121,
+        404,
+        494,
+        921,
+        71,
+        758,
+        735,
+        683,
+        509
+      ]
+    },
+    {
+      "prompt": "Solo violin, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        644,
+        1017,
+        434,
+        225,
+        994,
+        391,
+        667,
+        22,
+        174,
+        834,
+        934,
+        822
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        800,
+        743,
+        969,
+        212,
+        685,
+        478,
+        43,
+        8,
+        557,
+        460,
+        770,
+        115
+      ]
+    },
+    {
+      "prompt": "A recording of flute playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        702,
+        726,
+        829,
+        604,
+        556,
+        478,
+        375,
+        1016,
+        537,
+        292,
+        207,
+        439
+      ]
+    },
+    {
+      "prompt": "Solo flute, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        800,
+        171,
+        433,
+        729,
+        897,
+        166,
+        510,
+        720,
+        851,
+        372,
+        14,
+        897
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        99,
+        6,
+        969,
+        604,
+        524,
+        62,
+        666,
+        206,
+        723,
+        56,
+        357,
+        906
+      ]
+    },
+    {
+      "prompt": "A recording of cello playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        391,
+        758,
+        298,
+        604,
+        159,
+        113,
+        220,
+        288,
+        611,
+        711,
+        893,
+        985
+      ]
+    },
+    {
+      "prompt": "Solo cello, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        391,
+        1017,
+        553,
+        729,
+        266,
+        469,
+        979,
+        200,
+        244,
+        576,
+        472,
+        892
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        218,
+        792,
+        327,
+        240,
+        469,
+        179,
+        819,
+        392,
+        290,
+        595,
+        671,
+        109
+      ]
+    },
+    {
+      "prompt": "A recording of harp playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        1002,
+        423,
+        669,
+        902,
+        812,
+        608,
+        570,
+        854,
+        290,
+        353,
+        589,
+        722
+      ]
+    },
+    {
+      "prompt": "Solo harp, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        870,
+        982,
+        434,
+        902,
+        824,
+        488,
+        510,
+        774,
+        59,
+        791,
+        560,
+        817
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        213,
+        1001,
+        268,
+        604,
+        433,
+        233,
+        923,
+        401,
+        943,
+        564,
+        448,
+        69
+      ]
+    },
+    {
+      "prompt": "A recording of saxophone playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        229,
+        21,
+        816,
+        566,
+        266,
+        495,
+        1005,
+        592,
+        945,
+        196,
+        370,
+        69
+      ]
+    },
+    {
+      "prompt": "Solo saxophone, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        644,
+        171,
+        218,
+        146,
+        60,
+        940,
+        667,
+        569,
+        253,
+        324,
+        702,
+        550
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        184,
+        328,
+        645,
+        197,
+        6,
+        321,
+        67,
+        242,
+        499,
+        292,
+        318,
+        553
+      ]
+    },
+    {
+      "prompt": "A recording of synthesizer playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        675,
+        374,
+        491,
+        524,
+        280,
+        899,
+        290,
+        808,
+        54,
+        519,
+        629,
+        196
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        434,
+        1004,
+        268,
+        625,
+        303,
+        685,
+        958,
+        865,
+        189,
+        456,
+        68,
+        23
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a gentle melody.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        762,
+        477,
+        327,
+        356,
+        731,
+        758,
+        1004,
+        357,
+        290,
+        465,
+        878,
+        527
+      ]
+    },
+    {
+      "prompt": "A recording of drums playing a slow classical piece.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        1002,
+        423,
+        631,
+        604,
+        271,
+        184,
+        515,
+        590,
+        751,
+        209,
+        532,
+        1008
+      ]
+    },
+    {
+      "prompt": "Solo drums, fast repeated notes and arpeggios.",
+      "mapper_seed": 17,
+      "group": "preserve",
+      "tokens": [
+        194,
+        171,
+        798,
+        984,
+        561,
+        634,
+        717,
+        902,
+        347,
+        110,
+        622,
+        464
+      ]
+    },
+    {
+      "prompt": "Solo piano playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        145,
+        115,
+        965,
+        484,
+        230,
+        179,
+        71,
+        822,
+        486,
+        555,
+        547,
+        100
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        800,
+        743,
+        829,
+        336,
+        943,
+        459,
+        109,
+        832,
+        177,
+        63,
+        953,
+        474
+      ]
+    },
+    {
+      "prompt": "A recording of piano playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        606,
+        423,
+        412,
+        61,
+        672,
+        494,
+        419,
+        821,
+        272,
+        735,
+        103,
+        924
+      ]
+    },
+    {
+      "prompt": "A recording of flute playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        800,
+        466,
+        294,
+        690,
+        685,
+        478,
+        319,
+        860,
+        926,
+        903,
+        406,
+        886
+      ]
+    },
+    {
+      "prompt": "Solo piano, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        215,
+        477,
+        199,
+        266,
+        410,
+        639,
+        24,
+        42,
+        911,
+        950,
+        790,
+        173
+      ]
+    },
+    {
+      "prompt": "Solo flute, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        800,
+        171,
+        433,
+        103,
+        897,
+        612,
+        1023,
+        720,
+        174,
+        379,
+        200,
+        559
+      ]
+    },
+    {
+      "prompt": "A jazz improvisation played on piano.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        606,
+        477,
+        522,
+        447,
+        1011,
+        741,
+        172,
+        1018,
+        897,
+        977,
+        684,
+        1003
+      ]
+    },
+    {
+      "prompt": "A jazz improvisation played on flute.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        156,
+        964,
+        1013,
+        576,
+        266,
+        773,
+        386,
+        668,
+        1020,
+        841,
+        849,
+        634
+      ]
+    },
+    {
+      "prompt": "Warm expressive melody played on piano.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        911,
+        569,
+        875,
+        80,
+        6,
+        758,
+        576,
+        333,
+        541,
+        705,
+        90,
+        354
+      ]
+    },
+    {
+      "prompt": "Warm expressive melody played on flute.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        693,
+        466,
+        174,
+        913,
+        6,
+        478,
+        666,
+        367,
+        542,
+        2,
+        376,
+        889
+      ]
+    },
+    {
+      "prompt": "Soft piano music recorded in a quiet room.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        542,
+        696,
+        6,
+        426,
+        711,
+        37,
+        633,
+        854,
+        537,
+        585,
+        69,
+        949
+      ]
+    },
+    {
+      "prompt": "Soft flute music recorded in a quiet room.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        693,
+        743,
+        327,
+        832,
+        810,
+        677,
+        739,
+        954,
+        185,
+        1016,
+        251,
+        723
+      ]
+    },
+    {
+      "prompt": "A lively folk tune performed on piano alone.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        869,
+        967,
+        723,
+        85,
+        544,
+        1005,
+        889,
+        151,
+        268,
+        548,
+        282,
+        504
+      ]
+    },
+    {
+      "prompt": "A lively folk tune performed on flute alone.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        653,
+        171,
+        218,
+        103,
+        895,
+        972,
+        419,
+        174,
+        132,
+        374,
+        376,
+        48
+      ]
+    },
+    {
+      "prompt": "A musician plays a beautiful piano solo.",
+      "mapper_seed": 29,
+      "group": "source",
+      "tokens": [
+        869,
+        954,
+        669,
+        61,
+        99,
+        75,
+        76,
+        822,
+        803,
+        568,
+        521,
+        179
+      ]
+    },
+    {
+      "prompt": "A musician plays a beautiful flute solo.",
+      "mapper_seed": 29,
+      "group": "destination",
+      "tokens": [
+        800,
+        743,
+        433,
+        428,
+        132,
+        478,
+        419,
+        709,
+        479,
+        602,
+        251,
+        261
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        605,
+        248,
+        400,
+        9,
+        431,
+        77,
+        351,
+        954,
+        557,
+        15,
+        462,
+        355
+      ]
+    },
+    {
+      "prompt": "A recording of acoustic guitar playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        6,
+        248,
+        181,
+        61,
+        200,
+        608,
+        386,
+        821,
+        783,
+        828,
+        795,
+        940
+      ]
+    },
+    {
+      "prompt": "Solo acoustic guitar, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        86,
+        671,
+        118,
+        567,
+        910,
+        197,
+        967,
+        184,
+        925,
+        543,
+        573,
+        459
+      ]
+    },
+    {
+      "prompt": "Solo violin playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        19,
+        466,
+        243,
+        971,
+        6,
+        265,
+        109,
+        768,
+        41,
+        317,
+        701,
+        891
+      ]
+    },
+    {
+      "prompt": "A recording of violin playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        19,
+        466,
+        829,
+        336,
+        470,
+        511,
+        72,
+        273,
+        939,
+        240,
+        8,
+        391
+      ]
+    },
+    {
+      "prompt": "Solo violin, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        644,
+        171,
+        434,
+        225,
+        666,
+        209,
+        680,
+        291,
+        636,
+        832,
+        659,
+        35
+      ]
+    },
+    {
+      "prompt": "Solo flute playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        800,
+        743,
+        829,
+        336,
+        943,
+        459,
+        109,
+        832,
+        177,
+        63,
+        953,
+        474
+      ]
+    },
+    {
+      "prompt": "A recording of flute playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        800,
+        466,
+        294,
+        690,
+        685,
+        478,
+        319,
+        860,
+        926,
+        903,
+        406,
+        886
+      ]
+    },
+    {
+      "prompt": "Solo flute, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        800,
+        171,
+        433,
+        103,
+        897,
+        612,
+        1023,
+        720,
+        174,
+        379,
+        200,
+        559
+      ]
+    },
+    {
+      "prompt": "Solo cello playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        99,
+        6,
+        98,
+        604,
+        266,
+        478,
+        275,
+        452,
+        602,
+        945,
+        775,
+        652
+      ]
+    },
+    {
+      "prompt": "A recording of cello playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        391,
+        758,
+        298,
+        604,
+        212,
+        301,
+        666,
+        212,
+        560,
+        735,
+        528,
+        716
+      ]
+    },
+    {
+      "prompt": "Solo cello, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        391,
+        207,
+        553,
+        729,
+        910,
+        565,
+        691,
+        66,
+        262,
+        55,
+        392,
+        64
+      ]
+    },
+    {
+      "prompt": "Solo harp playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        218,
+        186,
+        327,
+        80,
+        597,
+        459,
+        798,
+        778,
+        135,
+        179,
+        999,
+        115
+      ]
+    },
+    {
+      "prompt": "A recording of harp playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        606,
+        423,
+        366,
+        61,
+        597,
+        608,
+        576,
+        874,
+        59,
+        445,
+        693,
+        397
+      ]
+    },
+    {
+      "prompt": "Solo harp, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        870,
+        796,
+        434,
+        902,
+        601,
+        750,
+        419,
+        104,
+        927,
+        641,
+        685,
+        817
+      ]
+    },
+    {
+      "prompt": "Solo saxophone playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        229,
+        207,
+        949,
+        546,
+        906,
+        77,
+        626,
+        216,
+        736,
+        758,
+        991,
+        488
+      ]
+    },
+    {
+      "prompt": "A recording of saxophone playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        229,
+        21,
+        298,
+        604,
+        266,
+        446,
+        986,
+        89,
+        783,
+        387,
+        6,
+        610
+      ]
+    },
+    {
+      "prompt": "Solo saxophone, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        644,
+        171,
+        5,
+        146,
+        561,
+        1023,
+        708,
+        215,
+        783,
+        310,
+        702,
+        586
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        184,
+        328,
+        829,
+        754,
+        6,
+        492,
+        109,
+        472,
+        276,
+        595,
+        837,
+        226
+      ]
+    },
+    {
+      "prompt": "A recording of synthesizer playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        737,
+        949,
+        333,
+        802,
+        261,
+        478,
+        277,
+        953,
+        146,
+        469,
+        122,
+        543
+      ]
+    },
+    {
+      "prompt": "Solo synthesizer, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        434,
+        671,
+        433,
+        319,
+        624,
+        685,
+        901,
+        294,
+        385,
+        830,
+        294,
+        546
+      ]
+    },
+    {
+      "prompt": "Solo drums playing a gentle melody.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        762,
+        275,
+        181,
+        356,
+        597,
+        179,
+        654,
+        357,
+        481,
+        190,
+        222,
+        189
+      ]
+    },
+    {
+      "prompt": "A recording of drums playing a slow classical piece.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        737,
+        949,
+        619,
+        100,
+        200,
+        306,
+        948,
+        350,
+        971,
+        735,
+        949,
+        697
+      ]
+    },
+    {
+      "prompt": "Solo drums, fast repeated notes and arpeggios.",
+      "mapper_seed": 29,
+      "group": "preserve",
+      "tokens": [
+        609,
+        268,
+        433,
+        664,
+        343,
+        1023,
+        717,
+        629,
+        856,
+        353,
+        699,
+        701
+      ]
+    }
+  ],
+  "source_checkpoint": "checkpoints/mrt2_base.safetensors",
+  "formula": "delta = pinv([piano; preserve], rcond=1e-4) @ [(flute-piano) @ W; 0]",
+  "fit_instrument_centroids": true,
+  "reused_calibration_sha256": "6d30ada4abb83e9e2f153553a2e7c5e55b5312f5305af2459abf5601b527bab4",
+  "calibration_relative_residual": 2.45699724137165e-15,
+  "preserve_relative_residual": 2.1545208486163118e-16,
+  "candidates": {
+    "retarget": {
+      "patch_sha256": "1a19b5ad313403f4daed2d3e35fe814f799724a4ad67e5dbd650cf13002b404a",
+      "changed_parameters": 786432,
+      "relative_adapter_change": 0.021932825446128845
+    },
+    "stronger": {
+      "patch_sha256": "1b97245a11bb8025770d344945da36f5327476165a9d11bd393e6832e63d5533",
+      "changed_parameters": 786432,
+      "relative_adapter_change": 0.03289923816919327
+    },
+    "random": {
+      "patch_sha256": "52671752dc03e619b27b13b4d0b59f16144b067fe1bc1e972bace0432dbcbc17",
+      "changed_parameters": 786427,
+      "relative_adapter_change": 0.021932825446128845
+    }
+  },
+  "claim": "Exploratory calibration-based model editing; no gradients. Not a novel method or evidence of full unlearning."
+}

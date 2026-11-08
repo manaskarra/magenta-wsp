@@ -1,0 +1,205 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 129,
+      "sha256": "b54a776e7710f242aa758eea62e9fced059f3e520b4c9117f9202b3a3ecc01be"
+    },
+    "ATTRIBUTION.md": {
+      "bytes": 2951,
+      "sha256": "d399174c9a7ef8ee5cfaa44dffd751f6272f177efe28c479103d82f09a02d786"
+    },
+    "EVALUATION.md": {
+      "bytes": 11368,
+      "sha256": "c8ca5fa2f6e21331e018103d39d9a90f35eddd6f10a07e7837c78b89ede9ee90"
+    },
+    "METHOD.md": {
+      "bytes": 2196,
+      "sha256": "4e08268f439035288bf0890e7a7432c2b0d7697979661591f62c3d963e1b1bc5"
+    },
+    "MODEL_CARD.md": {
+      "bytes": 9854,
+      "sha256": "432cb52a3c115ac32ba1664713ebe061218cfaeffd008e97ff26f6dc0ddf4c71"
+    },
+    "README.md": {
+      "bytes": 8272,
+      "sha256": "98340ab4c36bcb4530a8d11e4f377f1532b4e1a54b9369bb186363eec539056d"
+    },
+    "attribution/442789__lena-orsa__happy-music-pistachio-ice-cream-ragtime.txt": {
+      "bytes": 174,
+      "sha256": "99f9c44368918572ac154ae4a2fec4020d1d4bb418ae7bf241864916d68f9d04"
+    },
+    "attribution/sorohanro_-_solo-trumpet-06.txt": {
+      "bytes": 310,
+      "sha256": "750a191b9d0cc94b2f19cfbf11acc13783f75bedcccfcf562f5b076efd068aba"
+    },
+    "audio/experimental_fa_real_piano_40s.wav": {
+      "bytes": 2304044,
+      "sha256": "acf47f0d6b9ce9002fd75441fdb5b3ad53582c23a08479340db80bb879ccf298"
+    },
+    "audio/main_fa_real_piano_40s.wav": {
+      "bytes": 2304044,
+      "sha256": "b5aaef3bbd426096fa5081f033a4a03010c346055b42f179a74abbf4ff6c05b4"
+    },
+    "audio/main_fe_piano_trio.wav": {
+      "bytes": 2304044,
+      "sha256": "6b8371e5ce5b24e66e357ef523491a28b610a37c63f8e94548929ddf37fdc964"
+    },
+    "audio/main_fp_boogie.wav": {
+      "bytes": 2304044,
+      "sha256": "b6ab87adc63294191698dd2df1419733bb864afed53c73ceb06c649ea35d1fa1"
+    },
+    "audio/original_fa_real_piano_40s.wav": {
+      "bytes": 2304044,
+      "sha256": "b9805c3d3f86b0ff4fd003d2883cc752204393fd655745ceaea344c031ee0b1d"
+    },
+    "audio/original_fe_piano_trio.wav": {
+      "bytes": 2304044,
+      "sha256": "eae2dde834e016d6647e10eada3a2b1035f951616075cec69e99c2a08059a2f7"
+    },
+    "audio/original_fp_boogie.wav": {
+      "bytes": 2304044,
+      "sha256": "4eca5b3ce3bdfa97201232da8f2a49ac7fa5ce188a277f0647af12e88299f788"
+    },
+    "audio/prompt_fp_boogie.wav": {
+      "bytes": 2304044,
+      "sha256": "905aa920e26298d813d7778e29599d2c66ee85eb6910a5fa356553f987a4efad"
+    },
+    "code/compare_piano.py": {
+      "bytes": 6767,
+      "sha256": "46731b4f3526143e2f4ab206ed36effbead0c2820c9b35b68929349d37a93d22"
+    },
+    "code/edit_piano.py": {
+      "bytes": 5710,
+      "sha256": "79734baedf4d7cf97c87daf8e8ca59277897391a51e6ef56bdd1ca807a4b10f7"
+    },
+    "code/magenta_smoke.py": {
+      "bytes": 3055,
+      "sha256": "de0e15da5e19537ea045f3220d17d9907eacc36bc9991bd977c0e8b75ce14405"
+    },
+    "code/materialize_patch.py": {
+      "bytes": 4283,
+      "sha256": "805c3cd1fe4152a04a78bba7dbc184128a8db27c5c6c5200030d3607119aebfe"
+    },
+    "code/pilot.py": {
+      "bytes": 7474,
+      "sha256": "69569b7436187aa1cb7cded089a2d42d67cad2824d7a49fb46181955855f72c7"
+    },
+    "code/protected_piano.py": {
+      "bytes": 7942,
+      "sha256": "b2b9c4881d160c00c60e148693983dc4bda03816fa2b6a373703a0882f3e0678"
+    },
+    "code/rebuild_protected_patch.py": {
+      "bytes": 2776,
+      "sha256": "65207ca659db814b46b7935dba301c08c5e21dfe958b55d5399e03c476dc33c1"
+    },
+    "code/requirements-magenta.txt": {
+      "bytes": 158,
+      "sha256": "0f338db69c130c19ea96491958c41ddcab6b7aa779506357ffac853b7f3c4c86"
+    },
+    "code/retarget_piano.py": {
+      "bytes": 11476,
+      "sha256": "493383a1843c404614240255fa2a578e3c755664b7b07ae5930d1cb848b60173"
+    },
+    "demo.css": {
+      "bytes": 20930,
+      "sha256": "052b9a34871ec5a9f080b581a0d70fe39d2dca932e4fd8ff6177833f283b9e4f"
+    },
+    "demo.js": {
+      "bytes": 14941,
+      "sha256": "51d6ad2da96a45eed0ca65e00c5ceb8493bf1c591dc90a91973df1edac3ad41f"
+    },
+    "demo_cases.json": {
+      "bytes": 186,
+      "sha256": "b9a9f4ff2657ef86d7dc8acfb63eab695f8d075b83d7585a4fb02f8cbb069274"
+    },
+    "evidence/checkpoint_verification.json": {
+      "bytes": 600,
+      "sha256": "9216b481fb3cf6ab89b9b6a5c645dc26e9c2bc9a70e527707f6e9b608968527c"
+    },
+    "evidence/demo_audio.json": {
+      "bytes": 16423,
+      "sha256": "6ddedede8058d4ac193445b0114de9195a131afdc65e8a1350f6fe7b3f6eae15"
+    },
+    "evidence/listening_round_1.json": {
+      "bytes": 1747,
+      "sha256": "f55770a779da6288ef1644beba72fec9aadc9a983f430832cc7297bceee1eadf"
+    },
+    "evidence/listening_round_2.json": {
+      "bytes": 1739,
+      "sha256": "3699d96cf054b2c0d050247c8bca7741c45037fac48baf245ada004fa91646cd"
+    },
+    "evidence/reload_verification.json": {
+      "bytes": 525,
+      "sha256": "6b7d1a19b900087bc09b6fef28d293c3c0a73c47d1603b74c054e28b425e6054"
+    },
+    "evidence/weight_map.json": {
+      "bytes": 253309,
+      "sha256": "a3e763de11e0b1bd9e52712e62555057b8190a0ff8872380968906cf5a04080d"
+    },
+    "experimental/README.md": {
+      "bytes": 1466,
+      "sha256": "e84b2786db9c88d41b8d7562c5d6dea21b0d306a2d2a5b20ccb60ea0db53f1ef"
+    },
+    "experimental/edit.json": {
+      "bytes": 1654,
+      "sha256": "e16bd9772dd599df76fec7893eeed8bedfabc8dde296186cb93b1cc365bf44f7"
+    },
+    "experimental/gatefix.safetensors": {
+      "bytes": 3145912,
+      "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
+    },
+    "index.html": {
+      "bytes": 620960,
+      "sha256": "5f745a66b9aa8887c67e02a9a2d81eaa6207a55343b6da01afa4e7ccff093cbf"
+    },
+    "patch/direction_calibration.json": {
+      "bytes": 38551,
+      "sha256": "5e7fd0bec07072356260dea01b804d616c1f6b96279451c31d7d17679c5c78e8"
+    },
+    "patch/edit.json": {
+      "bytes": 143329,
+      "sha256": "cf0e394c292e1950c226c4ca529b12405c63a129116314df3bc05a73dd178cb0"
+    },
+    "patch/stronger.safetensors": {
+      "bytes": 3145912,
+      "sha256": "76c9e49fc2bcfead129b7992bddf1c968e02c06d20bccaae26adbaaca081959e"
+    },
+    "pytest.ini": {
+      "bytes": 45,
+      "sha256": "89d35449fc8befdc466a8c14b0defd29de8b066f1e5e370d6fc9fc8192d62c0d"
+    },
+    "requirements-test.txt": {
+      "bytes": 27,
+      "sha256": "3479d4774758c3d1755c667289896afbd9a0afb61583dc680b7ed034800befbb"
+    },
+    "tests/test_compare_piano.py": {
+      "bytes": 2526,
+      "sha256": "ea409584fa7f9124e4318649b5d64e2a9266af59d3175ac84ca9e0708c4feaa7"
+    },
+    "tests/test_edit_piano.py": {
+      "bytes": 883,
+      "sha256": "192ea6e66095bbf1714834b447381e8f0c0f420d953998c711a086cdce8a529b"
+    },
+    "tests/test_materialize_patch.py": {
+      "bytes": 1066,
+      "sha256": "b80c88494874b15c869ce5886b9da292c3520b6faec875b5d8f74ee5b17b3e7b"
+    },
+    "tests/test_pilot.py": {
+      "bytes": 1699,
+      "sha256": "32c37f75ded175180d56959ab0bf8bc261e0f4a8035a54f5ee378347f09ed901"
+    },
+    "tests/test_protected_piano.py": {
+      "bytes": 1420,
+      "sha256": "5d33f623bb6c38e8b4206680a6f786a9611ed3321a19bcf547509919b7713c93"
+    },
+    "tests/test_retarget_piano.py": {
+      "bytes": 1313,
+      "sha256": "13ea91706473720c759b857d4403ecdc4729a767b8f795dd9ec3882a104fb364"
+    }
+  },
+  "checkpoint_sha256": "5a9e57012d9d78ac405cb969ac63a691f4f47f7386445034131fb875986b1bba",
+  "patch_sha256": "76c9e49fc2bcfead129b7992bddf1c968e02c06d20bccaae26adbaaca081959e",
+  "experimental_patch_sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a",
+  "release": "2026-11-08-showcase",
+  "note": "Selected release with reproduction code, tests and evaluation records. Calibration metadata paths are portable. Full checkpoints, raw reference recordings and the complete research archive are not included."
+}

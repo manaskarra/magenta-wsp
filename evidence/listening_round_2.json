@@ -1,0 +1,21 @@
+{
+  "listener": "user (project owner), blind; mapping decoded after reply",
+  "recorded": "2026-11-08",
+  "verbatim": "1: C=piano (Best), A, B better than A (Both flute) | 2: B cleaner, no leakage | 3: A, C piano - strings in all | 4: A=piano on top, piano+ drums.....B=drums lil more dominant/top? | 5: unclear, instrument like short samples more, but B linhger | 6: yes, B slightly better | 7: yes, but A cleaner",
+  "decoded": {
+    "set1_lullaby": {"original": "piano, best", "protected": "flute", "gatefix": "flute, better than protected"},
+    "set2_marimba": {"original": "marimba", "gatefix": "marimba, cleaner, no leakage"},
+    "set3_pianostrings_ref": {"original": "strings only", "protected": "piano + strings", "gatefix": "piano + strings"},
+    "set4_pianodrums_ref": {"original": "piano on top + drums", "gatefix": "drums more dominant; piano receded; flute not named"},
+    "set5_humming_ref": {"original": "instrument-like, unclear", "gatefix": "instrument-like, lingers more; no clear change"},
+    "set6_trumpet_ref": {"original": "trumpet, slightly better", "gatefix": "trumpet"},
+    "set7_realpiano": {"protected": "flute", "gatefix": "flute, cleaner"}
+  },
+  "assessment": {
+    "gatefix_vs_protected_quality": "gate-fix preferred on both direct comparisons (lullaby, real piano)",
+    "original_vs_edits_quality": "original preferred on lullaby and trumpet; gate-fix preferred on marimba control",
+    "inversion_persists": "piano+strings reference gains piano under both edits (negative gate -0.55 unchanged)",
+    "piano_in_mix": "piano+drums reference: piano receded, drums kept, conversion to flute not clearly heard (gate 0.47)",
+    "ood_preservation": "humming and trumpet references preserved by ear"
+  }
+}
