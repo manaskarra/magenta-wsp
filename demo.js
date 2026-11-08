@@ -239,13 +239,13 @@
     if (record) {
       content.innerHTML = record.html;
       select.value = current.name;
-      document.title = `${record.title} — Piano to flute`;
+      document.title = `${record.title} | ${originalTitle}`;
     } else {
       const message = document.createElement('p');
       message.textContent = 'This document is not in the bundle. Choose another document above.';
       content.replaceChildren(message);
       select.selectedIndex = -1;
-      document.title = `Document unavailable — Piano to flute`;
+      document.title = `Document unavailable | ${originalTitle}`;
     }
     if (!reader.open) {
       returnFocus = document.activeElement;

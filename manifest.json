@@ -66,7 +66,7 @@
     },
     "demo.js": {
       "bytes": 15394,
-      "sha256": "d66b11a6a539da76fdd19b6b22bd2eb66dfc80f139c9a498cf761cc983a82add"
+      "sha256": "ad4d266ce5298d9de334539f47beffc46ad33db445013d7f8a872d6e91825ced"
     },
     "demo_cases.json": {
       "bytes": 186,
@@ -124,9 +124,13 @@
       "bytes": 3145912,
       "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
     },
+    "icon.svg": {
+      "bytes": 6057,
+      "sha256": "6d029a7a23aa40edd6d62edf66eca0a9f44c5fc4f1d094fe2c73661ce8239dc5"
+    },
     "index.html": {
-      "bytes": 639485,
-      "sha256": "77c50725cb02c7c4a3efca2b735602e4262d18e5dd70afce3c518a3163e11a61"
+      "bytes": 639494,
+      "sha256": "d1d8cd67f825ed024333a177104a391c104ba1be634bebf12966d3f305756173"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,
