@@ -1,5 +1,8 @@
 # magenta-wsp
 
+[Interactive demo](https://manaskarra.com/projects/magenta-wsp) ·
+[Read the write-up](https://manaskarra.com/blog/magenta-wsp)
+
 A weight-space programming experiment that edits [Google Magenta RealTime 2](https://huggingface.co/google/magenta-realtime-2)
 to shift piano-conditioned music toward flute.
 The same prompt or audio-style reference can produce piano with the original

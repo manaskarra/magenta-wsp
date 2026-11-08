@@ -169,6 +169,15 @@ h1{
 .text-link span{
   font-size:22px
 }
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:14px 26px
+}
+.story-link{
+  color:var(--blue)
+}
 .console{
   background:var(--silver);
   border:1px solid #d2d8e0;
