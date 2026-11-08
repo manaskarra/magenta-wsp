@@ -1,6 +1,7 @@
 # magenta-wsp
 
-A piano-to-flute weight edit for [Google Magenta RealTime 2](https://huggingface.co/google/magenta-realtime-2).
+A weight-space programming experiment that edits [Google Magenta RealTime 2](https://huggingface.co/google/magenta-realtime-2)
+to shift piano-conditioned music toward flute.
 The same prompt or audio-style reference can produce piano with the original
 weights and flute with the edited weights.
 

@@ -13,12 +13,12 @@
       "sha256": "46417977f3e42f285438fd7bc3986e2b1718aa677e329948e4f5c0660afc1418"
     },
     "METHOD.md": {
-      "bytes": 8597,
-      "sha256": "f7cb8ac0b4e11182fe7679924c8e1a88b1779ad15a1b72e05578da0c68458f01"
+      "bytes": 8940,
+      "sha256": "0b0403aaf23ef2d25fc65ce0aa7ca358ee0c29a855ac6e9bdda43f428d1918ce"
     },
     "README.md": {
-      "bytes": 4270,
-      "sha256": "caa1d39b89dcbdfc6b107b664ff99fa3de16f918201dc44f4e3fb0b8de9ce2a0"
+      "bytes": 4332,
+      "sha256": "0e3509ee7f8b2ab2ee6cf903e9e7bad8898a159fa9295031c9652580447a9f59"
     },
     "attribution/442789__lena-orsa__happy-music-pistachio-ice-cream-ragtime.txt": {
       "bytes": 174,
@@ -125,8 +125,8 @@
       "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
     },
     "index.html": {
-      "bytes": 636936,
-      "sha256": "d9599984b0889ae93b9c3a149dde4952ef073507ad6f1df7cb5101375fccbd8c"
+      "bytes": 637439,
+      "sha256": "e9cec60eacb786e99b6d44865bc66422f4ffef5cf09158197c02bf55369e81ae"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,

@@ -169,12 +169,18 @@ The newer experimental patch adds four zero-response constraints. It keeps the
 same direction and strength, and its gate is still unbounded. It needs further
 evaluation; it is not a replacement for the main result.
 
-The contribution is a documented, reproducible experiment in permanently
-redirecting an existing music model's behavior through a small weight edit.
-The linear-algebra method has prior art. GPT-6 Astra designed and implemented
-the main edit using Python and encoder examples; the project owner set the goal
-and supplied listening feedback. The process does not demonstrate reading the
-meaning of arbitrary raw weights alone.
+This is a human-guided weight-space programming experiment: GPT-6 Astra designed
+and implemented a persistent weight edit using Python and frozen encoder
+examples. The project owner set the goal and supplied listening feedback.
+The mechanism is a calibration-based rank-one update, using established linear
+algebra.
+
+The original [WSP post](https://rikiyat.github.io/blog/weight-space-programming/)
+describes LLMs reading and writing weights toward a natural-language objective
+without gradient descent. Its [Qwen experiment](https://github.com/RikiyaT/lm_understand-logs/blob/main/exp8_math/README.md)
+also allowed Python, practice examples and forward-pass feedback. That supports
+the workflow framing here; our calibration and evaluation setup are described
+above.
 
 ## A short way to present it
 
