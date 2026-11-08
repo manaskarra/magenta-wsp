@@ -129,8 +129,8 @@
       "sha256": "6d029a7a23aa40edd6d62edf66eca0a9f44c5fc4f1d094fe2c73661ce8239dc5"
     },
     "index.html": {
-      "bytes": 639494,
-      "sha256": "d1d8cd67f825ed024333a177104a391c104ba1be634bebf12966d3f305756173"
+      "bytes": 639584,
+      "sha256": "9e935216d1a3d1b0ac37971e3156d5f108f358f901b7f0299859cabf2d983f4b"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,
