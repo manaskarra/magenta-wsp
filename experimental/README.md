@@ -13,7 +13,7 @@ The gate is still linear and unbounded; the piano-and-strings reversal persists.
 ## Apply it
 
 From the repository root, after the environment and `BASE` setup in the
-[main README](../README.md):
+[reproduction guide](../docs/REPRODUCE.md):
 
 ```sh
 .env/bin/python scripts/materialize_patch.py --patch-dir experimental --candidate gatefix --base-checkpoint "$BASE" --output experimental_checkpoint

@@ -17,8 +17,8 @@
       "sha256": "f7cb8ac0b4e11182fe7679924c8e1a88b1779ad15a1b72e05578da0c68458f01"
     },
     "README.md": {
-      "bytes": 9040,
-      "sha256": "2b218ee66bab09ea6e46d92b0c89e66b478d69abead53b6ce005ccfe1012c2c9"
+      "bytes": 4270,
+      "sha256": "caa1d39b89dcbdfc6b107b664ff99fa3de16f918201dc44f4e3fb0b8de9ce2a0"
     },
     "attribution/442789__lena-orsa__happy-music-pistachio-ice-cream-ragtime.txt": {
       "bytes": 174,
@@ -84,6 +84,10 @@
       "bytes": 9854,
       "sha256": "432cb52a3c115ac32ba1664713ebe061218cfaeffd008e97ff26f6dc0ddf4c71"
     },
+    "docs/REPRODUCE.md": {
+      "bytes": 3437,
+      "sha256": "cfb18e467d77160368ee2c81305c617f05a54aac79c99934cca764ae6eb4b742"
+    },
     "evidence/checkpoint_verification.json": {
       "bytes": 600,
       "sha256": "9216b481fb3cf6ab89b9b6a5c645dc26e9c2bc9a70e527707f6e9b608968527c"
@@ -109,8 +113,8 @@
       "sha256": "a3e763de11e0b1bd9e52712e62555057b8190a0ff8872380968906cf5a04080d"
     },
     "experimental/README.md": {
-      "bytes": 1476,
-      "sha256": "cf00d137624fbd6703ff33e55d812ef06a245a14805a585119ca3a1d76e8c804"
+      "bytes": 1491,
+      "sha256": "1833e6f5641a14dfbb95e3ff4feca3d2edfcc60a3a6c9e45b93360fa13490a1e"
     },
     "experimental/edit.json": {
       "bytes": 1654,
@@ -121,8 +125,8 @@
       "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
     },
     "index.html": {
-      "bytes": 638469,
-      "sha256": "71f7cea1b12fe23b25f018ad7fddfc0d6b90c25b83fdd7a28279850d302ecdb8"
+      "bytes": 636936,
+      "sha256": "d9599984b0889ae93b9c3a149dde4952ef073507ad6f1df7cb5101375fccbd8c"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,
@@ -161,8 +165,8 @@
       "sha256": "da2e98693577ad5613980f994cc0d158dd8303cf4047c1871c37a2f62843daee"
     },
     "scripts/demo_documents.py": {
-      "bytes": 5042,
-      "sha256": "e29c41d73251fe29be19c95bbf2cdd8841e8ad950f9cd5615bfcfaedd9763f85"
+      "bytes": 5091,
+      "sha256": "1b1f5337a677aad20bc894b629ce2aea3dacc90259d02e74d4ff87745585fb11"
     },
     "scripts/edit.py": {
       "bytes": 3009,
@@ -185,8 +189,8 @@
       "sha256": "18afb11c3b20d913489945feb4accc9193cc09cc150ec677df5ceb0d3b73370b"
     },
     "tests/test_documents.py": {
-      "bytes": 4882,
-      "sha256": "56f50d9db3b6abac96dd1ef03e5b4c6b87ccf96e23ba7677e0d47c151df9ed55"
+      "bytes": 4884,
+      "sha256": "dbdde34296984011e7b3d2a37ad746be205f4cf03596afa309b6a4e7566b9296"
     },
     "tests/test_materialize_patch.py": {
       "bytes": 1067,

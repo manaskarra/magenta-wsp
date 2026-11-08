@@ -54,7 +54,7 @@ class DocumentTests(unittest.TestCase):
             docs = render_documents(root)
             self.assertEqual(set(docs), {"README.md", "experimental/README.md", "docs/MODEL_CARD.md"})
             main = docs["README.md"]["html"]
-            self.assertEqual(docs["README.md"]["title"], "Method & setup")
+            self.assertEqual(docs["README.md"]["title"], "Project overview")
             self.assertIn('href="#doc=experimental%2FREADME.md&amp;section=apply-it"', main)
             self.assertIn('<table>', main)
             self.assertIn('<pre tabindex="0"><code class="language-python">', main)

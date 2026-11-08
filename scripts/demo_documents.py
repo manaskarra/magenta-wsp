@@ -10,7 +10,8 @@ from latex2mathml.converter import convert
 
 
 DOCUMENT_TITLES = {
-    "README.md": "Method & setup",
+    "README.md": "Project overview",
+    "docs/REPRODUCE.md": "Reproduce the edit",
     "docs/ATTRIBUTION.md": "Credits & licenses",
     "experimental/README.md": "Experimental patch",
     "docs/MODEL_CARD.md": "Model card",
