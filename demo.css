@@ -228,6 +228,26 @@ select:disabled{
   color:var(--muted);
   margin:12px 0 20px
 }
+.model-input{
+  margin-bottom:20px
+}
+.input-label{
+  margin:0 0 7px;
+  font-size:12px;
+  font-weight:600
+}
+.input-text{
+  margin:0;
+  font-size:15px;
+  line-height:1.55;
+  overflow-wrap:anywhere
+}
+.comparison-note{
+  margin:8px 0 0;
+  font-size:12px;
+  line-height:1.5;
+  color:var(--muted)
+}
 .variant-buttons{
   display:flex;
   gap:5px;

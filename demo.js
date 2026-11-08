@@ -3,8 +3,8 @@
   const cases = JSON.parse(document.getElementById('demo-data').textContent);
   const $ = id => document.getElementById(id);
   const audio = $('listening-audio');
-  const labels = {original: 'Original', main: 'Main edit', prompt: 'Flute prompt', experimental: 'Experimental'};
-  const descriptions = {original: 'Original weights', main: 'Main edited weights', prompt: 'Original weights · flute request', experimental: 'Experimental weights'};
+  const labels = {original: 'Original model', main: 'Edited model', prompt: 'Ask for flute', experimental: 'Experimental edit'};
+  const descriptions = {original: 'Original model output', main: 'Edited model output', prompt: 'Original model · new prompt', experimental: 'Experimental model output'};
   let selectedCase = cases[0];
   let selectedVariant = 'original';
   let selectionVersion = 0;
@@ -45,8 +45,15 @@
     $('variant-title').textContent = descriptions[variant];
     $('duration-label').textContent = formatTime(current.duration);
     $('heard').textContent = selectedCase.heard[variant];
-    $('input-text').textContent = variant === 'prompt' ? current.prompt : selectedCase.request;
-    $('seed-label').textContent = `Generation seed: ${current.seed}. ${variant === 'experimental' ? 'Experimental patch.' : 'Original and main edit use the same conditioning input.'}`;
+    const isText = typeof current.prompt === 'string';
+    $('input-label').textContent = isText ? 'Prompt sent to the model' : 'Recording given to the model';
+    $('input-text').textContent = isText ? current.prompt : selectedCase.request;
+    $('comparison-note').textContent = variant === 'prompt'
+      ? 'Here, the original model gets a different prompt that asks for flute.'
+      : isText
+        ? 'Original and edited models get this exact prompt. Only the saved weights change.'
+        : 'Every version gets the same recording as a style reference and generates new music.';
+    $('seed-label').textContent = `Generation seed: ${current.seed}. All versions use the same seed and generation settings.`;
     $('variant-buttons').querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.variant === variant)));
     const ns = 'http://www.w3.org/2000/svg';
     const bars = current.peaks.map((peak, index) => {

@@ -15,6 +15,14 @@ inference code.
 The demo pairs three selected recordings and lets you inspect the actual weight
 changes. It plays saved audio; it does not run Magenta in the browser.
 
+The first example gives both models the same prompt:
+
+> A solo honky-tonk piano plays a fast boogie-woogie, only piano.
+
+**Original model** produces piano; **Edited model** produces flute. **Ask for
+flute** is a separate comparison: the original model receives a flute prompt.
+The demo shows the input used for each clip.
+
 ```sh
 git clone https://github.com/manaskarra/magenta-wsp.git
 cd magenta-wsp

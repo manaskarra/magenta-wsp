@@ -17,8 +17,8 @@
       "sha256": "0b0403aaf23ef2d25fc65ce0aa7ca358ee0c29a855ac6e9bdda43f428d1918ce"
     },
     "README.md": {
-      "bytes": 4332,
-      "sha256": "0e3509ee7f8b2ab2ee6cf903e9e7bad8898a159fa9295031c9652580447a9f59"
+      "bytes": 4655,
+      "sha256": "9ba71f970c3849a2223e2a266e38e702b539cf3589229f517653d2b1e32f7ce2"
     },
     "attribution/442789__lena-orsa__happy-music-pistachio-ice-cream-ragtime.txt": {
       "bytes": 174,
@@ -61,12 +61,12 @@
       "sha256": "905aa920e26298d813d7778e29599d2c66ee85eb6910a5fa356553f987a4efad"
     },
     "demo.css": {
-      "bytes": 20930,
-      "sha256": "052b9a34871ec5a9f080b581a0d70fe39d2dca932e4fd8ff6177833f283b9e4f"
+      "bytes": 21223,
+      "sha256": "f0a42ddefdb4ecd6e145bfd52d66c938ab1583acc6101ef36ecf63cdf68586dd"
     },
     "demo.js": {
-      "bytes": 14941,
-      "sha256": "51d6ad2da96a45eed0ca65e00c5ceb8493bf1c591dc90a91973df1edac3ad41f"
+      "bytes": 15394,
+      "sha256": "d66b11a6a539da76fdd19b6b22bd2eb66dfc80f139c9a498cf761cc983a82add"
     },
     "demo_cases.json": {
       "bytes": 186,
@@ -125,8 +125,8 @@
       "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
     },
     "index.html": {
-      "bytes": 637439,
-      "sha256": "e9cec60eacb786e99b6d44865bc66422f4ffef5cf09158197c02bf55369e81ae"
+      "bytes": 638405,
+      "sha256": "c21623021af5c76f622aa71d14063f79ff56987b4d069f753cda1f4cd6a69337"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,
@@ -201,8 +201,8 @@
       "sha256": "eace2d8be5970ded4cdc5ac85b2ed8f4a6da6eb9e41548176f2d45c4ddf41c7c"
     },
     "tests/test_release.py": {
-      "bytes": 2097,
-      "sha256": "fee74ca936991931d9df9da54048b01992ab5f35c780421338b3b2ae336d0ccb"
+      "bytes": 3260,
+      "sha256": "ee278a3834a5de185e4d16103223de9205c2e9b74bc3d65ccc9c72a2ac636732"
     }
   },
   "checkpoint_sha256": "5a9e57012d9d78ac405cb969ac63a691f4f47f7386445034131fb875986b1bba",
