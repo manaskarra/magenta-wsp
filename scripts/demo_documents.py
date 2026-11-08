@@ -11,9 +11,9 @@ from latex2mathml.converter import convert
 
 DOCUMENT_TITLES = {
     "README.md": "Method & setup",
-    "ATTRIBUTION.md": "Credits & licenses",
+    "docs/ATTRIBUTION.md": "Credits & licenses",
     "experimental/README.md": "Experimental patch",
-    "MODEL_CARD.md": "Model card",
+    "docs/MODEL_CARD.md": "Model card",
 }
 
 

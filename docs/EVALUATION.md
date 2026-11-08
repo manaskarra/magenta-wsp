@@ -18,8 +18,8 @@ byte for byte on the local runtime.
 
 | Record | Location |
 | --- | --- |
-| Portable patch and checkpoint verification | [piano_package_verification/verification.json](evidence/checkpoint_verification.json) |
-| Fresh-process reload | [piano_protected_reload/reload_verification.json](evidence/reload_verification.json) |
+| Portable patch and checkpoint verification | [piano_package_verification/verification.json](../evidence/checkpoint_verification.json) |
+| Fresh-process reload | [piano_protected_reload/reload_verification.json](../evidence/reload_verification.json) |
 | Selected checkpoint and metadata | piano_protected_checkpoint/ (research archive: `results/piano_protected_checkpoint/`) |
 
 ## Fresh comparisons
@@ -46,8 +46,8 @@ Both blind rounds used **one listener: the project owner**. Earlier development
 listening was informal. Four prompt-baseline pairs were generated and scored,
 but only two received a blind human quality comparison.
 
-The [first listening record](evidence/listening_round_1.json) and
-[second listening record](evidence/listening_round_2.json) are included unchanged.
+The [first listening record](../evidence/listening_round_1.json) and
+[second listening record](../evidence/listening_round_2.json) are included unchanged.
 The full review report remains in the research archive. This was a separate
 AI-assisted audit, not external peer review. Two details in that report need
 correction: the experimental gate is not bounded, and the singing-control
@@ -154,7 +154,7 @@ One listener preferred this patch to the main edit in two direct blind
 comparisons. The piano-and-strings reversal persisted, and the original audio
 was still preferred on some cases. Treat this as a follow-up candidate, not a
 validated replacement. Application instructions and hashes are in the
-[bundled experimental README](experimental/README.md).
+[bundled experimental README](../experimental/README.md).
 
 ## Earlier experiments
 

@@ -21,7 +21,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 Open [localhost:8000](http://127.0.0.1:8000/). The [method](METHOD.md) covers the
-calculation in detail; the [evaluation notes](EVALUATION.md) record the comparisons,
+calculation in detail; the [evaluation notes](docs/EVALUATION.md) record the comparisons,
 listening feedback and failures.
 
 ## How the weights were chosen
@@ -155,6 +155,7 @@ is not claimed as new.
 ## Repository layout
 
 ```text
+docs/             Evaluation, attribution and the upstream model card
 scripts/          Apply the patch, rebuild it, generate comparisons, build the demo
 patch/            Main adapter and the calibration tokens used to calculate it
 experimental/     Follow-up adapter and its separate instructions
@@ -164,7 +165,7 @@ evidence/         Checkpoint checks, listening records and weight-map data
 ```
 
 The demo is `index.html`, `demo.js` and `demo.css`. [METHOD.md](METHOD.md) explains
-how the edit works; [EVALUATION.md](EVALUATION.md) records what worked and what
+how the edit works; [EVALUATION.md](docs/EVALUATION.md) records what worked and what
 failed. Full checkpoints and raw reference recordings are not included.
 
 [manifest.json](manifest.json) records the published file sizes and hashes.
@@ -196,5 +197,5 @@ new behavior needs paired generation and listening comparisons.
 
 The project's code, original documentation and demo interface are under the
 [MIT license](LICENSE). Model-derived patches, the upstream model card and
-reference recordings retain their own terms. See [ATTRIBUTION.md](ATTRIBUTION.md)
+reference recordings retain their own terms. See [ATTRIBUTION.md](docs/ATTRIBUTION.md)
 for those licenses and the generated audio's provenance.

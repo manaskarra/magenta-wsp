@@ -136,7 +136,7 @@ For illustration, a gate response of 1 adds 1.4 times the direction; a response
 of 0 adds nothing. A response of −0.5 adds −0.7 times the direction, reversing
 the intended shift. These are example scores, not measurements of demo clips.
 The actual gate is linear and unbounded, and a negative response explains the
-piano-and-strings failure recorded in [EVALUATION.md](EVALUATION.md).
+piano-and-strings failure recorded in [EVALUATION.md](docs/EVALUATION.md).
 
 ## Save, reload, compare
 

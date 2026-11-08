@@ -1,7 +1,7 @@
 # Attribution and licenses
 
 The project's code, original documentation and demo interface are covered by
-the [MIT license](LICENSE), copyright 2026 manaskarra. That license does not
+the [MIT license](../LICENSE), copyright 2026 manaskarra. That license does not
 replace the model, patch or reference-audio terms below, and does not assert
 commercial clearance for the generated recordings.
 
@@ -51,5 +51,5 @@ the goal and listening feedback. The newer experimental patch is a separate
 follow-up; the post's authors did not make either patch.
 
 [Unified Concept Editing](https://unified.baulab.info/) is related prior work on
-closed-form concept edits. The [README](README.md) describes the calculation used
+closed-form concept edits. The [README](../README.md) describes the calculation used
 here and the scope of the WSP attribution.

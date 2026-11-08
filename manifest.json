@@ -8,29 +8,17 @@
       "bytes": 119,
       "sha256": "adbf803c069a7c487aba05f8712f22303fbe096b3771423dc5bec709183f4ea6"
     },
-    "ATTRIBUTION.md": {
-      "bytes": 3234,
-      "sha256": "f5e9dab5c254b417e221a80ff5e500812cfdfe3bdc35956dddac259ab2322c7b"
-    },
-    "EVALUATION.md": {
-      "bytes": 11368,
-      "sha256": "c8ca5fa2f6e21331e018103d39d9a90f35eddd6f10a07e7837c78b89ede9ee90"
-    },
     "LICENSE": {
       "bytes": 1067,
       "sha256": "46417977f3e42f285438fd7bc3986e2b1718aa677e329948e4f5c0660afc1418"
     },
     "METHOD.md": {
-      "bytes": 8592,
-      "sha256": "b0de01ddc7477052a0990dd3854cac1844a1aafe8680091e4d3df9ee6b50e377"
-    },
-    "MODEL_CARD.md": {
-      "bytes": 9854,
-      "sha256": "432cb52a3c115ac32ba1664713ebe061218cfaeffd008e97ff26f6dc0ddf4c71"
+      "bytes": 8597,
+      "sha256": "f7cb8ac0b4e11182fe7679924c8e1a88b1779ad15a1b72e05578da0c68458f01"
     },
     "README.md": {
-      "bytes": 8955,
-      "sha256": "9999442de70de18171b870e2189d8e238f2e4d73ef299fa6dcee9599844c7307"
+      "bytes": 9040,
+      "sha256": "2b218ee66bab09ea6e46d92b0c89e66b478d69abead53b6ce005ccfe1012c2c9"
     },
     "attribution/442789__lena-orsa__happy-music-pistachio-ice-cream-ragtime.txt": {
       "bytes": 174,
@@ -84,6 +72,18 @@
       "bytes": 186,
       "sha256": "b9a9f4ff2657ef86d7dc8acfb63eab695f8d075b83d7585a4fb02f8cbb069274"
     },
+    "docs/ATTRIBUTION.md": {
+      "bytes": 3240,
+      "sha256": "5bc0d1664b2ea596708a667119be76509bb1ee81f2594ca2a4f8c3c040cf1d0a"
+    },
+    "docs/EVALUATION.md": {
+      "bytes": 11383,
+      "sha256": "63f2c473d2c4361aac9d6eaa017d96f97cd041dd6f567b6c6003bba16791aa09"
+    },
+    "docs/MODEL_CARD.md": {
+      "bytes": 9854,
+      "sha256": "432cb52a3c115ac32ba1664713ebe061218cfaeffd008e97ff26f6dc0ddf4c71"
+    },
     "evidence/checkpoint_verification.json": {
       "bytes": 600,
       "sha256": "9216b481fb3cf6ab89b9b6a5c645dc26e9c2bc9a70e527707f6e9b608968527c"
@@ -121,8 +121,8 @@
       "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
     },
     "index.html": {
-      "bytes": 638334,
-      "sha256": "ca61224bb7d1f48f10d1c2b3a6be9babe9a10c09fd8d2c01c2c054230038d0d2"
+      "bytes": 638469,
+      "sha256": "71f7cea1b12fe23b25f018ad7fddfc0d6b90c25b83fdd7a28279850d302ecdb8"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,
@@ -161,8 +161,8 @@
       "sha256": "da2e98693577ad5613980f994cc0d158dd8303cf4047c1871c37a2f62843daee"
     },
     "scripts/demo_documents.py": {
-      "bytes": 5032,
-      "sha256": "f1d6ea174e2789b5b5497c9eb7bdf5e3d66f8d40eb483f01426ab5fbaa28f462"
+      "bytes": 5042,
+      "sha256": "e29c41d73251fe29be19c95bbf2cdd8841e8ad950f9cd5615bfcfaedd9763f85"
     },
     "scripts/edit.py": {
       "bytes": 3009,
@@ -185,8 +185,8 @@
       "sha256": "18afb11c3b20d913489945feb4accc9193cc09cc150ec677df5ceb0d3b73370b"
     },
     "tests/test_documents.py": {
-      "bytes": 4826,
-      "sha256": "e1cbb637d5199574a09fe030544d87a382cf972a88b1ac773f182b00a03fcf92"
+      "bytes": 4882,
+      "sha256": "56f50d9db3b6abac96dd1ef03e5b4c6b87ccf96e23ba7677e0d47c151df9ed55"
     },
     "tests/test_materialize_patch.py": {
       "bytes": 1067,
@@ -197,8 +197,8 @@
       "sha256": "eace2d8be5970ded4cdc5ac85b2ed8f4a6da6eb9e41548176f2d45c4ddf41c7c"
     },
     "tests/test_release.py": {
-      "bytes": 1794,
-      "sha256": "a3188097deb4c7f547c0ddc4994d73cad06730df965de6016bda8af791248999"
+      "bytes": 2097,
+      "sha256": "fee74ca936991931d9df9da54048b01992ab5f35c780421338b3b2ae336d0ccb"
     }
   },
   "checkpoint_sha256": "5a9e57012d9d78ac405cb969ac63a691f4f47f7386445034131fb875986b1bba",

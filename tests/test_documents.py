@@ -38,6 +38,7 @@ class DocumentTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "experimental").mkdir()
+            (root / "docs").mkdir()
             (root / ".pytest_cache").mkdir()
             (root / ".pytest_cache/README.md").write_text('# Cache\n\n[Not a document](missing.md)\n')
             (root / "README.md").write_text(
@@ -49,9 +50,9 @@ class DocumentTests(unittest.TestCase):
                 '# Experimental\n\n## Apply it\n\n[Main](../README.md)\n\n'
                 '[Here](#apply-it)\n\n[Patch](gatefix.safetensors)\n\n'
                 '[External](https://example.com/source.md#code)\n')
-            (root / "MODEL_CARD.md").write_text('---\nlicense: cc-by-4.0\n---\n\n# Model\n\n1. First\n2. Second\n')
+            (root / "docs/MODEL_CARD.md").write_text('---\nlicense: cc-by-4.0\n---\n\n# Model\n\n1. First\n2. Second\n')
             docs = render_documents(root)
-            self.assertEqual(set(docs), {"README.md", "experimental/README.md", "MODEL_CARD.md"})
+            self.assertEqual(set(docs), {"README.md", "experimental/README.md", "docs/MODEL_CARD.md"})
             main = docs["README.md"]["html"]
             self.assertEqual(docs["README.md"]["title"], "Method & setup")
             self.assertIn('href="#doc=experimental%2FREADME.md&amp;section=apply-it"', main)
@@ -65,8 +66,8 @@ class DocumentTests(unittest.TestCase):
             self.assertIn('href="#doc=README.md"', nested)
             self.assertIn('href="experimental/gatefix.safetensors"', nested)
             self.assertIn('href="https://example.com/source.md#code"', nested)
-            self.assertNotIn('license:', docs["MODEL_CARD.md"]["html"])
-            self.assertIn('<ol>', docs["MODEL_CARD.md"]["html"])
+            self.assertNotIn('license:', docs["docs/MODEL_CARD.md"]["html"])
+            self.assertIn('<ol>', docs["docs/MODEL_CARD.md"]["html"])
             hosted = render_documents(root, "/blog/piano-to-flute/")
             self.assertIn('href="/blog/piano-to-flute/experimental/gatefix.safetensors"', hosted["experimental/README.md"]["html"])
             self.assertIn('href="#doc=README.md"', hosted["experimental/README.md"]["html"])

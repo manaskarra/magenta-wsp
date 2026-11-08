@@ -1,7 +1,9 @@
 import json
+from html import unescape
 from pathlib import Path
 import re
 import unittest
+from urllib.parse import parse_qs, unquote, urlsplit
 
 from common import sha256
 from demo_documents import render_documents
@@ -23,15 +25,20 @@ class ReleaseTests(unittest.TestCase):
                              record["candidates"][candidate]["patch_sha256"])
 
     def test_embedded_documents_match_markdown_and_local_links_exist(self):
+        page = (ROOT / "index.html").read_text()
         match = re.search(r'<script id="document-data" type="application/json">(.*?)</script>',
-                          (ROOT / "index.html").read_text(), re.S)
+                          page, re.S)
         self.assertIsNotNone(match)
         documents = json.loads(match[1])
         self.assertEqual(documents, render_documents(ROOT), "Run python scripts/build_demo.py")
-        from urllib.parse import unquote, urlsplit
-        for name, document in documents.items():
-            for href in re.findall(r'href="([^"]+)"', document["html"]):
-                url = urlsplit(href)
-                if not url.scheme and not url.netloc and url.path:
-                    with self.subTest(document=name, link=href):
+        pages = {"index.html": page, **{name: doc["html"] for name, doc in documents.items()}}
+        for name, markup in pages.items():
+            for href in re.findall(r'href="([^"]+)"', markup):
+                url = urlsplit(unescape(href))
+                if url.scheme or url.netloc:
+                    continue
+                with self.subTest(document=name, link=href):
+                    if url.path:
                         self.assertTrue((ROOT / unquote(url.path)).exists())
+                    for target in parse_qs(url.fragment).get("doc", []):
+                        self.assertIn(target, documents)
