@@ -12,11 +12,11 @@ The gate is still linear and unbounded; the piano-and-strings reversal persists.
 
 ## Apply it
 
-From the bundle root, after the environment and `BASE` setup in the
+From the repository root, after the environment and `BASE` setup in the
 [main README](../README.md):
 
 ```sh
-.env/bin/python code/materialize_patch.py --search experimental --candidate gatefix --base-checkpoint "$BASE" --output experimental_checkpoint
+.env/bin/python scripts/materialize_patch.py --patch-dir experimental --candidate gatefix --base-checkpoint "$BASE" --output experimental_checkpoint
 ```
 
 Apply it to the original pinned checkpoint, not on top of the main edit. The

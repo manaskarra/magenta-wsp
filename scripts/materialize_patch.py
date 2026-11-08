@@ -1,4 +1,4 @@
-"""Save and audit a full Magenta checkpoint containing one explored adapter patch."""
+"""Apply a saved adapter patch and verify that every other tensor is unchanged."""
 
 import argparse
 import json
@@ -7,8 +7,8 @@ import re
 
 import numpy as np
 
-from edit_piano import TARGET
-from pilot import ROOT, sha256
+from edit import TARGET
+from common import sha256
 
 
 def source_checkpoint(manifest, override=None):
@@ -22,14 +22,14 @@ def source_checkpoint(manifest, override=None):
 
 
 def main():
-    from safetensors import safe_open
-    from safetensors.numpy import save_file
-
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--search", type=Path, default=ROOT / "results" / "piano_retarget_search")
-    parser.add_argument("--candidate", required=True)
+    parser.add_argument("--patch-dir", "--search", dest="search", type=Path,
+                        default=Path(__file__).resolve().parents[1] / "patch",
+                        help="Folder containing edit.json and patch tensors (default: bundled main patch)")
+    parser.add_argument("--candidate", default="stronger")
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--base-checkpoint", type=Path, help="Relocated original checkpoint, verified against the manifest hash")
+    parser.add_argument("--base-checkpoint", type=Path, required=True,
+                        help="Original checkpoint, verified against the manifest hash")
     args = parser.parse_args()
     args.search = args.search.resolve()
     args.output = args.output.resolve()
@@ -42,6 +42,9 @@ def main():
     patch_path = args.search / f"{args.candidate}.safetensors"
     if sha256(patch_path) != manifest["candidates"][args.candidate]["patch_sha256"]:
         raise ValueError("Patch hash mismatch")
+    from safetensors import safe_open
+    from safetensors.numpy import save_file
+
     with safe_open(patch_path, framework="numpy") as patch, safe_open(source, framework="numpy") as checkpoint:
         if patch.keys() != [TARGET]:
             raise ValueError("Expected exactly one adapter tensor")

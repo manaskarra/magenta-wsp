@@ -92,7 +92,7 @@ Run these commands from the repository root:
 
 ```sh
 python3.12 -m venv .env
-.env/bin/python -m pip install -r code/requirements-magenta.txt
+.env/bin/python -m pip install -r requirements-magenta.txt
 .env/bin/hf download google/magenta-realtime-2 --revision 010aa0dcb0dfd27b24f0ad07b4dad63e8f9521cc --include 'resources/*' 'checkpoints/mrt2_base.safetensors' README.md
 ```
 
@@ -102,9 +102,9 @@ there. The materializer checks the base hash and refuses to overwrite an output.
 
 ```sh
 BASE=/absolute/path/to/snapshot/checkpoints/mrt2_base.safetensors
-.env/bin/python code/materialize_patch.py --search patch --candidate stronger --base-checkpoint "$BASE" --output edited_checkpoint
-.env/bin/python code/compare_piano.py --cases demo_cases.json --output reproduction
-.env/bin/python code/compare_piano.py --edited --edit-record edited_checkpoint/edit.json --cases demo_cases.json --output reproduction
+.env/bin/python scripts/materialize_patch.py --base-checkpoint "$BASE" --output edited_checkpoint
+.env/bin/python scripts/compare_piano.py --cases demo_cases.json --output reproduction
+.env/bin/python scripts/compare_piano.py --edited --edit-record edited_checkpoint/edit.json --cases demo_cases.json --output reproduction
 ```
 
 The last two commands run the original and edited checkpoints separately with
@@ -120,13 +120,14 @@ The recorded encoder tokens are included. Recalculate the gate and output
 direction from those tokens and the base weights with:
 
 ```sh
-.env/bin/python code/rebuild_protected_patch.py --base-checkpoint "$BASE" --manifest patch/edit.json --direction-manifest patch/direction_calibration.json --output rebuilt.safetensors
+.env/bin/python scripts/rebuild_protected_patch.py --base-checkpoint "$BASE" --manifest patch/edit.json --direction-manifest patch/direction_calibration.json --output rebuilt.safetensors
 ```
 
 The script requires an exact SHA-256 match with the published patch.
-[protected_piano.py](code/protected_piano.py) shows how calibration was collected.
-Collecting it again requires nine synthetic audio references from the research
-workspace; those recordings are not included here.
+[edit.py](scripts/edit.py) contains the gate calculation and token-to-vector mapping.
+The saved tokens are enough to rebuild the patch exactly. Recollecting them
+from audio would require the nine original synthetic references, which are not
+included. The exploratory collection scripts remain in the research archive.
 
 ### Expected hashes
 
@@ -151,29 +152,49 @@ Closed-form concept editing has prior art, including
 [Unified Concept Editing](https://unified.baulab.info/); the editing algorithm
 is not claimed as new.
 
-## Files
+## Repository layout
 
-The repo includes eight audio clips across three examples, both patches,
-reproduction code, calibration tokens, weight-map data and selected evaluation
-records. Full checkpoints, raw reference recordings and the complete research
-archive are not included. The demo can be hosted as a static folder.
+```text
+scripts/          Apply the patch, rebuild it, generate comparisons, build the demo
+patch/            Main adapter and the calibration tokens used to calculate it
+experimental/     Follow-up adapter and its separate instructions
+tests/            Small CPU tests; no model download
+audio/            Eight listening clips across three selected examples
+evidence/         Checkpoint checks, listening records and weight-map data
+```
 
-[manifest.json](manifest.json) records file sizes and hashes.
-[demo_audio.json](evidence/demo_audio.json) records the output hashes and level
-adjustments used for playback. Model and reference-audio licenses are in
-[ATTRIBUTION.md](ATTRIBUTION.md).
+The demo is `index.html`, `demo.js` and `demo.css`. [METHOD.md](METHOD.md) explains
+how the edit works; [EVALUATION.md](EVALUATION.md) records what worked and what
+failed. Full checkpoints and raw reference recordings are not included.
 
-Calibration metadata paths were made relative for publication, and the metadata
-hashes were updated accordingly. Rebuilding from these records reproduces the
-published patch exactly.
+[manifest.json](manifest.json) records the published file sizes and hashes.
+[demo_audio.json](evidence/demo_audio.json) records output hashes and the level
+adjustments used for playback. Calibration metadata uses portable paths;
+rebuilding from it reproduces the published patch exactly.
 
-## Tests
+## Development
 
-The tests cover the gate constraints, patch/checkpoint identity checks, audio
-integrity and paired evaluation inputs. They run without downloading the model:
+Use Python 3.12. These checks run on a CPU without the Magenta runtime:
 
 ```sh
 python3.12 -m venv .test-env
 .test-env/bin/python -m pip install -r requirements-test.txt
+.test-env/bin/python scripts/build_demo.py
 .test-env/bin/python -m pytest
 ```
+
+Run `build_demo.py` from a Git checkout after changing a published file. It
+refreshes the formatted Markdown in the demo and the file checksums. The tests
+cover gate constraints, checkpoint application, command-line validation, audio
+integrity and the document reader. GitHub Actions runs the same checks.
+
+For a change to the edit itself, also rebuild the real patch with the pinned
+runtime and base checkpoint. CPU fixtures do not establish musical quality;
+new behavior needs paired generation and listening comparisons.
+
+## License
+
+The project's code, original documentation and demo interface are under the
+[MIT license](LICENSE). Model-derived patches, the upstream model card and
+reference recordings retain their own terms. See [ATTRIBUTION.md](ATTRIBUTION.md)
+for those licenses and the generated audio's provenance.

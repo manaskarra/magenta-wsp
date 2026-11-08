@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 from materialize_patch import source_checkpoint
-from pilot import sha256
+from common import sha256
 
 
 class PortableCheckpointTests(unittest.TestCase):

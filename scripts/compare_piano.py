@@ -8,14 +8,8 @@ import time
 
 import numpy as np
 
-from magenta_smoke import REPO, REVISION, PROMPT
-from pilot import ROOT, audio_metrics, sha256
-
-CASES = {
-    "piano_demo": (PROMPT, 7),
-    "piano_heldout": ("Bright solo upright piano playing staccato jazz chords.", 19),
-    "guitar_control": ("Solo acoustic guitar, a clear gentle guitar melody, no other instruments.", 7),
-}
+from edit import REPO, REVISION
+from common import audio_metrics, sha256
 
 
 def load_cases(path):
@@ -53,43 +47,40 @@ def embed_case(model, case):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--edited", action="store_true")
+    parser.add_argument("--edit-record", type=Path, help="Edited checkpoint metadata; requires --edited")
+    parser.add_argument("--cases", type=Path, required=True, help="Frozen JSON evaluation cases")
+    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--seconds", type=int, choices=(12, 30), default=12)
+    args = parser.parse_args()
+    if args.edit_record and not args.edited:
+        parser.error("--edit-record requires --edited")
+    if args.edited and not args.edit_record:
+        parser.error("--edited requires --edit-record from materialize_patch.py")
+    variant = "edited" if args.edited else "baseline"
+    cases = load_cases(args.cases)
+    cases_hash = sha256(args.cases)
+    directory = args.output / variant
+    if directory.exists():
+        raise FileExistsError(f"Preserving previous evaluation: {directory}")
+    edit_record = None
+    if args.edited:
+        edit_record = json.loads(args.edit_record.read_text())
+        checkpoint = Path(edit_record["checkpoint"])
+        if sha256(checkpoint) != edit_record["checkpoint_sha256"]:
+            raise ValueError("Edited checkpoint does not match its recorded hash")
+
     import mlx.core as mx
     from huggingface_hub import snapshot_download
     from magenta_rt import MagentaRT2Mlx, paths
     from magenta_rt.config import MUSICCOCA
 
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--edited", action="store_true")
-    parser.add_argument("--variant", choices=("baseline", "old", "edited"), help="Label for three-way comparisons")
-    parser.add_argument("--edit-record", type=Path, help="Edited checkpoint metadata; requires --edited")
-    parser.add_argument("--cases", type=Path, help="Frozen JSON evaluation cases")
-    parser.add_argument("--output", type=Path, default=ROOT / "results" / "piano_comparison")
-    parser.add_argument("--seconds", type=int, choices=(12, 30), default=12)
-    args = parser.parse_args()
-    if args.edit_record and not args.edited:
-        parser.error("--edit-record requires --edited")
-    variant = args.variant or ("edited" if args.edited else "baseline")
-    if (variant == "baseline") == args.edited:
-        parser.error("baseline requires original weights; old/edited require --edited")
-    cases = load_cases(args.cases) if args.cases else {
-        name: {"prompt": prompt, "seed": seed, "style_mapper_seed": 7,
-               "target": "acoustic guitar" if name == "guitar_control" else "piano"}
-        for name, (prompt, seed) in CASES.items()
-    }
-    cases_hash = sha256(args.cases) if args.cases else None
-    directory = args.output / variant
-    if directory.exists():
-        raise FileExistsError(f"Preserving previous evaluation: {directory}")
     snapshot = Path(snapshot_download(REPO, revision=REVISION, local_files_only=True,
                                      allow_patterns=["resources/*", "checkpoints/mrt2_base.safetensors"]))
     paths.set_magenta_home(snapshot)
-    checkpoint = snapshot / "checkpoints" / "mrt2_base.safetensors"
-    edit_record = None
-    if args.edited:
-        edit_record = json.loads((args.edit_record or ROOT / "results" / "piano_projection" / "edit.json").read_text())
-        checkpoint = Path(edit_record["checkpoint"])
-        if sha256(checkpoint) != edit_record["checkpoint_sha256"]:
-            raise ValueError("Edited checkpoint does not match its recorded hash")
+    if not args.edited:
+        checkpoint = snapshot / "checkpoints" / "mrt2_base.safetensors"
     mx.set_cache_limit(1024**3)
     model = MagentaRT2Mlx(size="mrt2_base", bits=None, checkpoint=str(checkpoint))
     directory.mkdir(parents=True, exist_ok=False)
@@ -109,10 +100,6 @@ def main():
         audio_path = directory / f"{name}.wav"
         wav.write(str(audio_path))
         audio_hash = sha256(audio_path)
-        if not args.cases and args.seconds == 12 and variant == "baseline" and name == "piano_demo":
-            previous = json.loads((ROOT / "results" / "magenta_base_smoke" / "result.json").read_text())
-            if audio_hash != previous["wav_sha256"]:
-                raise RuntimeError("Baseline repeat differed from the original smoke sample; investigate before comparing edits")
         record = {
             "variant": variant, "case": name, **case,
             "cases_sha256": cases_hash, "frames": frames, "size": "mrt2_base",

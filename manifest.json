@@ -1,28 +1,36 @@
 {
   "files": {
+    ".github/workflows/checks.yml": {
+      "bytes": 512,
+      "sha256": "a8d72ea16eaacb8664140414038946d9e1b93d16c37d49195a7c835b2b5611c7"
+    },
     ".gitignore": {
-      "bytes": 129,
-      "sha256": "b54a776e7710f242aa758eea62e9fced059f3e520b4c9117f9202b3a3ecc01be"
+      "bytes": 119,
+      "sha256": "adbf803c069a7c487aba05f8712f22303fbe096b3771423dc5bec709183f4ea6"
     },
     "ATTRIBUTION.md": {
-      "bytes": 2951,
-      "sha256": "d399174c9a7ef8ee5cfaa44dffd751f6272f177efe28c479103d82f09a02d786"
+      "bytes": 3234,
+      "sha256": "f5e9dab5c254b417e221a80ff5e500812cfdfe3bdc35956dddac259ab2322c7b"
     },
     "EVALUATION.md": {
       "bytes": 11368,
       "sha256": "c8ca5fa2f6e21331e018103d39d9a90f35eddd6f10a07e7837c78b89ede9ee90"
     },
+    "LICENSE": {
+      "bytes": 1067,
+      "sha256": "46417977f3e42f285438fd7bc3986e2b1718aa677e329948e4f5c0660afc1418"
+    },
     "METHOD.md": {
-      "bytes": 2196,
-      "sha256": "4e08268f439035288bf0890e7a7432c2b0d7697979661591f62c3d963e1b1bc5"
+      "bytes": 8592,
+      "sha256": "b0de01ddc7477052a0990dd3854cac1844a1aafe8680091e4d3df9ee6b50e377"
     },
     "MODEL_CARD.md": {
       "bytes": 9854,
       "sha256": "432cb52a3c115ac32ba1664713ebe061218cfaeffd008e97ff26f6dc0ddf4c71"
     },
     "README.md": {
-      "bytes": 7843,
-      "sha256": "2c072c3e9d91ce48537ef149761eb5d9a2dd7b0898f670827dd2888d8b150019"
+      "bytes": 8955,
+      "sha256": "9999442de70de18171b870e2189d8e238f2e4d73ef299fa6dcee9599844c7307"
     },
     "attribution/442789__lena-orsa__happy-music-pistachio-ice-cream-ragtime.txt": {
       "bytes": 174,
@@ -64,42 +72,6 @@
       "bytes": 2304044,
       "sha256": "905aa920e26298d813d7778e29599d2c66ee85eb6910a5fa356553f987a4efad"
     },
-    "code/compare_piano.py": {
-      "bytes": 6767,
-      "sha256": "46731b4f3526143e2f4ab206ed36effbead0c2820c9b35b68929349d37a93d22"
-    },
-    "code/edit_piano.py": {
-      "bytes": 5710,
-      "sha256": "79734baedf4d7cf97c87daf8e8ca59277897391a51e6ef56bdd1ca807a4b10f7"
-    },
-    "code/magenta_smoke.py": {
-      "bytes": 3055,
-      "sha256": "de0e15da5e19537ea045f3220d17d9907eacc36bc9991bd977c0e8b75ce14405"
-    },
-    "code/materialize_patch.py": {
-      "bytes": 4283,
-      "sha256": "805c3cd1fe4152a04a78bba7dbc184128a8db27c5c6c5200030d3607119aebfe"
-    },
-    "code/pilot.py": {
-      "bytes": 7474,
-      "sha256": "69569b7436187aa1cb7cded089a2d42d67cad2824d7a49fb46181955855f72c7"
-    },
-    "code/protected_piano.py": {
-      "bytes": 7942,
-      "sha256": "b2b9c4881d160c00c60e148693983dc4bda03816fa2b6a373703a0882f3e0678"
-    },
-    "code/rebuild_protected_patch.py": {
-      "bytes": 2776,
-      "sha256": "65207ca659db814b46b7935dba301c08c5e21dfe958b55d5399e03c476dc33c1"
-    },
-    "code/requirements-magenta.txt": {
-      "bytes": 158,
-      "sha256": "0f338db69c130c19ea96491958c41ddcab6b7aa779506357ffac853b7f3c4c86"
-    },
-    "code/retarget_piano.py": {
-      "bytes": 11476,
-      "sha256": "493383a1843c404614240255fa2a578e3c755664b7b07ae5930d1cb848b60173"
-    },
     "demo.css": {
       "bytes": 20930,
       "sha256": "052b9a34871ec5a9f080b581a0d70fe39d2dca932e4fd8ff6177833f283b9e4f"
@@ -137,8 +109,8 @@
       "sha256": "a3e763de11e0b1bd9e52712e62555057b8190a0ff8872380968906cf5a04080d"
     },
     "experimental/README.md": {
-      "bytes": 1466,
-      "sha256": "e84b2786db9c88d41b8d7562c5d6dea21b0d306a2d2a5b20ccb60ea0db53f1ef"
+      "bytes": 1476,
+      "sha256": "cf00d137624fbd6703ff33e55d812ef06a245a14805a585119ca3a1d76e8c804"
     },
     "experimental/edit.json": {
       "bytes": 1654,
@@ -149,8 +121,8 @@
       "sha256": "cf3e73f8f7a8f6efd7d4673948dde51a25c1747fca50542053a20088cef5585a"
     },
     "index.html": {
-      "bytes": 619916,
-      "sha256": "8bc0b9b3bd5fe67c5664d8dc3eb93668451dcf7e5c1af3826bb9359d2003abaa"
+      "bytes": 638334,
+      "sha256": "ca61224bb7d1f48f10d1c2b3a6be9babe9a10c09fd8d2c01c2c054230038d0d2"
     },
     "patch/direction_calibration.json": {
       "bytes": 38551,
@@ -165,36 +137,68 @@
       "sha256": "76c9e49fc2bcfead129b7992bddf1c968e02c06d20bccaae26adbaaca081959e"
     },
     "pytest.ini": {
-      "bytes": 45,
-      "sha256": "89d35449fc8befdc466a8c14b0defd29de8b066f1e5e370d6fc9fc8192d62c0d"
+      "bytes": 48,
+      "sha256": "00bf4481467c28b31fff7b64e72c67f58e45be68fa03380ff6dd7eab021dabde"
+    },
+    "requirements-magenta.txt": {
+      "bytes": 158,
+      "sha256": "0f338db69c130c19ea96491958c41ddcab6b7aa779506357ffac853b7f3c4c86"
     },
     "requirements-test.txt": {
-      "bytes": 27,
-      "sha256": "3479d4774758c3d1755c667289896afbd9a0afb61583dc680b7ed034800befbb"
+      "bytes": 89,
+      "sha256": "adce458a8f2c5c81a3feed7828a2bae9fbb3c454c5d4596100218c1bbc6bfd49"
+    },
+    "scripts/build_demo.py": {
+      "bytes": 1487,
+      "sha256": "2188e42556870c515931242458fe0788937132e5721b0c9a8d75a345b7e36fe8"
+    },
+    "scripts/common.py": {
+      "bytes": 1025,
+      "sha256": "f719610f8afe5427fcb38afd8031885c402ba551420aafbeb98f9987af6dd15b"
+    },
+    "scripts/compare_piano.py": {
+      "bytes": 5678,
+      "sha256": "da2e98693577ad5613980f994cc0d158dd8303cf4047c1871c37a2f62843daee"
+    },
+    "scripts/demo_documents.py": {
+      "bytes": 5032,
+      "sha256": "f1d6ea174e2789b5b5497c9eb7bdf5e3d66f8d40eb483f01426ab5fbaa28f462"
+    },
+    "scripts/edit.py": {
+      "bytes": 3009,
+      "sha256": "457d9c374130e16a4532c2c0ad2eaa1ed823ca7e1671f1aec86d578c90675a8a"
+    },
+    "scripts/materialize_patch.py": {
+      "bytes": 4468,
+      "sha256": "d780e82cec8ba80e9690138d9fde595cc6de529309c00c543d2d931cb6006452"
+    },
+    "scripts/rebuild_protected_patch.py": {
+      "bytes": 2718,
+      "sha256": "09e5fed037c986f8f6293e840bd2a17f0ca66c1a64bb1530da33aab1dc0eb4f0"
+    },
+    "tests/test_commands.py": {
+      "bytes": 4091,
+      "sha256": "2809c39b98fcda7c92d82348f390890f5f9c9981f162b2710845de8428deb19a"
     },
     "tests/test_compare_piano.py": {
-      "bytes": 2526,
-      "sha256": "ea409584fa7f9124e4318649b5d64e2a9266af59d3175ac84ca9e0708c4feaa7"
+      "bytes": 5589,
+      "sha256": "18afb11c3b20d913489945feb4accc9193cc09cc150ec677df5ceb0d3b73370b"
     },
-    "tests/test_edit_piano.py": {
-      "bytes": 883,
-      "sha256": "192ea6e66095bbf1714834b447381e8f0c0f420d953998c711a086cdce8a529b"
+    "tests/test_documents.py": {
+      "bytes": 4826,
+      "sha256": "e1cbb637d5199574a09fe030544d87a382cf972a88b1ac773f182b00a03fcf92"
     },
     "tests/test_materialize_patch.py": {
-      "bytes": 1066,
-      "sha256": "b80c88494874b15c869ce5886b9da292c3520b6faec875b5d8f74ee5b17b3e7b"
-    },
-    "tests/test_pilot.py": {
-      "bytes": 1699,
-      "sha256": "32c37f75ded175180d56959ab0bf8bc261e0f4a8035a54f5ee378347f09ed901"
+      "bytes": 1067,
+      "sha256": "13241044bf77da63b70c6a7640367dcfe0c3009977e915cd0ebbd2c530a79359"
     },
     "tests/test_protected_piano.py": {
-      "bytes": 1420,
-      "sha256": "5d33f623bb6c38e8b4206680a6f786a9611ed3321a19bcf547509919b7713c93"
+      "bytes": 1409,
+      "sha256": "eace2d8be5970ded4cdc5ac85b2ed8f4a6da6eb9e41548176f2d45c4ddf41c7c"
     },
-    "tests/test_retarget_piano.py": {
-      "bytes": 1313,
-      "sha256": "13ea91706473720c759b857d4403ecdc4729a767b8f795dd9ec3882a104fb364"
+    "tests/test_release.py": {
+      "bytes": 1794,
+      "sha256": "a3188097deb4c7f547c0ddc4994d73cad06730df965de6016bda8af791248999"
     }
   },
   "checkpoint_sha256": "5a9e57012d9d78ac405cb969ac63a691f4f47f7386445034131fb875986b1bba",

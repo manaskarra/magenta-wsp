@@ -1,10 +1,15 @@
 import json
 from pathlib import Path
+import sys
 import tempfile
+from types import ModuleType, SimpleNamespace
 import unittest
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 
-from compare_piano import load_cases, embed_case
+import numpy as np
+
+from common import sha256
+from compare_piano import load_cases, embed_case, main
 
 
 class EvaluationCaseTests(unittest.TestCase):
@@ -45,6 +50,50 @@ class EvaluationCaseTests(unittest.TestCase):
             path = Path(tmp) / "source.wav"; path.write_bytes(b"changed")
             with self.assertRaisesRegex(ValueError, "hash mismatch"):
                 embed_case(model, {"audio_reference": str(path), "audio_sha256": "0" * 64})
+
+    def test_paired_generation_uses_declared_files_without_a_research_archive(self):
+        """Exercise the command flow with a stub runtime, not musical quality."""
+        modules = {name: ModuleType(name) for name in
+                   ("mlx", "mlx.core", "huggingface_hub", "magenta_rt", "magenta_rt.config")}
+        mx = modules["mlx.core"]
+        mx.set_cache_limit, mx.clear_cache, mx.random = Mock(), Mock(), SimpleNamespace(seed=Mock())
+        modules["mlx"].core = mx
+        modules["magenta_rt.config"].MUSICCOCA = SimpleNamespace(key="style")
+        model = Mock(temperature=1, top_k=100, cfg_scales=[1])
+        waveform = SimpleNamespace(samples=np.full((20, 2), 0.1, dtype=np.float32), sample_rate=10,
+                                   write=lambda path: Path(path).write_bytes(b"fixture audio"))
+        model.generate.return_value = (waveform, None)
+        runtime = modules["magenta_rt"]
+        runtime.MagentaRT2Mlx, runtime.paths = Mock(return_value=model), Mock()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cases = root / "cases.json"
+            cases.write_text(json.dumps({"piano": {
+                "prompt": "Solo piano", "seed": 11, "style_mapper_seed": 37, "target": "piano",
+            }}))
+            checkpoint = root / "edited.safetensors"
+            checkpoint.write_bytes(b"fixture checkpoint")
+            edit_record = root / "edit.json"
+            edit_record.write_text(json.dumps({"checkpoint": str(checkpoint),
+                                               "checkpoint_sha256": sha256(checkpoint)}))
+            modules["huggingface_hub"].snapshot_download = Mock(return_value=str(root / "snapshot"))
+            args = ["compare_piano.py", "--cases", str(cases), "--output", str(root / "output")]
+            with patch.dict(sys.modules, modules), patch("builtins.print"):
+                for extra in ([], ["--edited", "--edit-record", str(edit_record)]):
+                    with patch.object(sys, "argv", args + extra):
+                        main()
+                with patch.object(sys, "argv", args), self.assertRaises(FileExistsError):
+                    main()
+            for variant in ("baseline", "edited"):
+                record = json.loads((root / "output" / variant / "piano.json").read_text())
+                self.assertEqual(record["seed"], 11)
+                self.assertEqual(record["style_mapper_seed"], 37)
+                self.assertEqual(record["cases_sha256"], sha256(cases))
+                self.assertEqual(record["prompt"], "Solo piano")
+            self.assertEqual([call.kwargs["checkpoint"] for call in runtime.MagentaRT2Mlx.call_args_list],
+                             [str(root / "snapshot/checkpoints/mrt2_base.safetensors"), str(checkpoint)])
+            self.assertEqual([call.args for call in mx.random.seed.call_args_list], [(11,), (11,)])
+            self.assertEqual(model.generate.call_count, 2)
 
 
 if __name__ == "__main__":

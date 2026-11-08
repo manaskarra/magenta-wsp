@@ -6,11 +6,9 @@ from pathlib import Path
 
 import numpy as np
 
-from edit_piano import EMBEDDING, TARGET
+from edit import EMBEDDING, TARGET, CONTROLS, protected_gate, style_vector
 from materialize_patch import source_checkpoint
-from pilot import sha256
-from protected_piano import protected_gate
-from retarget_piano import CONTROLS, style_vector
+from common import sha256
 
 
 def rebuild_weight(original, codebook, calibration, old_calibration, ridge):
@@ -27,9 +25,6 @@ def rebuild_weight(original, codebook, calibration, old_calibration, ridge):
 
 
 def main():
-    from safetensors import safe_open
-    from safetensors.numpy import save_file
-
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base-checkpoint", type=Path, required=True)
     parser.add_argument("--manifest", type=Path, required=True)
@@ -43,6 +38,9 @@ def main():
     if sha256(args.direction_manifest) != manifest["output_direction_source_sha256"]:
         raise ValueError("Output direction calibration changed")
     source = source_checkpoint(manifest, args.base_checkpoint)
+    from safetensors import safe_open
+    from safetensors.numpy import save_file
+
     with safe_open(source, framework="numpy") as weights:
         original, codebook = weights.get_tensor(TARGET), weights.get_tensor(EMBEDDING)
     weight = rebuild_weight(original, codebook, manifest["calibration"], old["calibration"], manifest["ridge"])

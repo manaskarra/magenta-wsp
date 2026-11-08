@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from protected_piano import protected_gate
+from edit import protected_gate
 
 
 class ProtectedGateTests(unittest.TestCase):

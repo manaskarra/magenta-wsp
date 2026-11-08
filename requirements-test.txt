@@ -1,2 +1,5 @@
 numpy==2.5.4
 pytest==9.2.0
+safetensors==0.8.0
+markdown-it-py==4.2.0
+latex2mathml==3.81.1

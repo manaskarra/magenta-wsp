@@ -1,5 +1,10 @@
 # Attribution and licenses
 
+The project's code, original documentation and demo interface are covered by
+the [MIT license](LICENSE), copyright 2026 manaskarra. That license does not
+replace the model, patch or reference-audio terms below, and does not assert
+commercial clearance for the generated recordings.
+
 ## Model and patches
 
 **Magenta RealTime 2**, Google DeepMind / Google LLC, copyright 2026 Google LLC.
